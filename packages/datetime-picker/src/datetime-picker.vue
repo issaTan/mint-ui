@@ -32,8 +32,8 @@
         display: inline-block;
         width: 50%;
         text-align: center;
-        line-height: 40px;
-        font-size: 16px;
+        line-height: 80px;
+        font-size: 32px;
         color: $color-blue;
       }
 

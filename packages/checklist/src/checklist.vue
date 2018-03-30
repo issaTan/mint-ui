@@ -94,14 +94,14 @@ export default {
 
       @descendent label {
         display: block;
-        padding: 0 10px;
+        padding: 0 20px;
       }
 
       @descendent title {
         color: $checklist-title-color;
         display: block;
-        font-size: 12px;
-        margin: 8px;
+        font-size: 24px;
+        margin: 16px;
       }
 
       @when limit {
@@ -119,7 +119,7 @@ export default {
 
       @descendent label {
         vertical-align: middle;
-        margin-left: 6px;
+        margin-left: 12px;
       }
 
       @descendent input {
@@ -149,16 +149,16 @@ export default {
         border-radius: 100%;
         border: 1px solid #ccc;
         position: relative;
-        size: 20px;
+        size: 40px;
         vertical-align: middle;
 
         &::after {
-          border: 2px solid transparent;
+          border: 4px solid transparent;
           border-left: 0;
           border-top: 0;
           content: " ";
-          position: absolute 3px * * 6px;
-          size: 4px 8px;
+          position: absolute 6px * * 12px;
+          size: 8px 16px;
           transform: rotate(45deg) scale(0);
           transition: transform .2s;
         }

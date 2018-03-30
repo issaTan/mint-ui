@@ -6,7 +6,7 @@
       },
 
       spinnerSize() {
-        return (this.size || this.$parent.size || 28) + 'px';
+        return (this.size || this.$parent.size || 28) + 'NaNpx';
       }
     },
 

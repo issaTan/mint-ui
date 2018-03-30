@@ -36,7 +36,7 @@ if (!Vue.prototype.$isServer) {
     if (element === null || element.style === null) return result;
 
     var transform = element.style[transformProperty];
-    var matches = /translate\(\s*(-?\d+(\.?\d+?)?)px,\s*(-?\d+(\.\d+)?)px\)\s*translateZ\(0px\)/ig.exec(transform);
+    var matches = /translate\(\s*(-?\d+(\.?\d+?)?)NaNpx,\s*(-?\d+(\.\d+)?)NaNpx\)\s*translateZ\(0px\)/ig.exec(transform);
     if (matches) {
       result.left = +matches[1];
       result.top = +matches[3];
@@ -65,9 +65,9 @@ if (!Vue.prototype.$isServer) {
     cancelTranslateElement(element);
 
     if (translate3d) {
-      element.style[transformProperty] += ' translate(' + (x ? (x + 'px') : '0px') + ',' + (y ? (y + 'px') : '0px') + ') translateZ(0px)';
+      element.style[transformProperty] += ' translate(' + (x ? (x + 'NaNpx') : '0px') + ',' + (y ? (y + 'NaNpx') : '0px') + ') translateZ(0px)';
     } else {
-      element.style[transformProperty] += ' translate(' + (x ? (x + 'px') : '0px') + ',' + (y ? (y + 'px') : '0px') + ')';
+      element.style[transformProperty] += ' translate(' + (x ? (x + 'NaNpx') : '0px') + ',' + (y ? (y + 'NaNpx') : '0px') + ')';
     }
   };
 
@@ -75,7 +75,7 @@ if (!Vue.prototype.$isServer) {
     if (element === null || element.style === null) return;
     var transformValue = element.style[transformProperty];
     if (transformValue) {
-      transformValue = transformValue.replace(/translate\(\s*(-?\d+(\.?\d+?)?)px,\s*(-?\d+(\.\d+)?)px\)\s*translateZ\(0px\)/g, '');
+      transformValue = transformValue.replace(/translate\(\s*(-?\d+(\.?\d+?)?)NaNpx,\s*(-?\d+(\.\d+)?)NaNpx\)\s*translateZ\(0px\)/g, '');
       element.style[transformProperty] = transformValue;
     }
   };

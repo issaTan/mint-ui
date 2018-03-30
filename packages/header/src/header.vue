@@ -48,10 +48,10 @@ export default {
       box-sizing: border-box;
       color: $color-white;
       display: flex;
-      font-size: 14px;
+      font-size: 28px;
       height: $header-height;
       line-height: 1;
-      padding: 0 10px;
+      padding: 0 20px;
       position: relative;
       text-align: center;
       white-space: nowrap;

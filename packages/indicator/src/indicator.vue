@@ -1,7 +1,7 @@
 <template>
   <transition name="mint-indicator">
     <div class="mint-indicator" v-show="visible">
-      <div class="mint-indicator-wrapper" :style="{ 'padding': text ? '20px' : '15px' }">
+      <div class="mint-indicator-wrapper" :style="{ 'padding': text ? '40px' : '30px' }">
         <spinner class="mint-indicator-spin" :type="convertedSpinnerType" :size="32"></spinner>
         <span class="mint-indicator-text" v-show="text">{{ text }}</span>
       </div>
@@ -18,7 +18,7 @@
     @descendent wrapper {
       position: fixed 50% * * 50%;
       transform: translate(-50%, -50%);
-      border-radius: 5px;
+      border-radius: 10px;
       background: rgba(0, 0, 0, 0.7);
       color: white;
       box-sizing: border-box;
@@ -30,8 +30,8 @@
       display: block;
       color: #fff;
       text-align: center;
-      margin-top: 10px;
-      font-size: 16px;
+      margin-top: 20px;
+      font-size: 32px;
     }
 
     @descendent spin {

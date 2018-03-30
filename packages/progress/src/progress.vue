@@ -2,8 +2,8 @@
   <div class="mt-progress">
     <slot name="start"></slot>
     <div class="mt-progress-content">
-      <div class="mt-progress-runway" :style="{ height: barHeight + 'px' }"></div>
-      <div class="mt-progress-progress" :style="{ width: value + '%', height: barHeight + 'px' }"></div>
+      <div class="mt-progress-runway" :style="{ height: barHeight + 'NaNpx' }"></div>
+      <div class="mt-progress-progress" :style="{ width: value + '%', height: barHeight + 'NaNpx' }"></div>
     </div>
     <slot name="end"></slot>
   </div>
@@ -14,8 +14,8 @@
     @component progress {
       position: relative;
       display: flex;
-      height: 30px;
-      line-height: 30px;
+      height: 60px;
+      line-height: 60px;
 
       & > * {
         display: flex;
@@ -23,11 +23,11 @@
       }
 
       & *[slot="start"] {
-        margin-right: 5px;
+        margin-right: 10px;
       }
 
       & *[slot="end"] {
-        margin-left: 5px;
+        margin-left: 10px;
       }
 
       @descendent content {
@@ -42,7 +42,7 @@
         left: 0;
         right: 0;
         background-color: #ebebeb;
-        height: 3px;
+        height: 6px;
       }
 
       @descendent progress {

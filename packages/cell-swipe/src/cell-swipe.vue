@@ -123,7 +123,7 @@ export default {
     },
 
     translate3d(offset) {
-      return `translate3d(${offset}px, 0, 0)`;
+      return `translate3d(${offset}NaNpx, 0, 0)`;
     },
 
     setAnimations(val) {
@@ -238,8 +238,8 @@ export default {
       @descendent button {
         height: 100%;
         display: inline-block;
-        padding: 0 10px;
-        line-height: 48px;
+        padding: 0 20px;
+        line-height: 96px;
       }
 
       .mint-cell-wrapper {

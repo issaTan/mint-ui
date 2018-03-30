@@ -31,21 +31,21 @@
 
       @descendent top, bottom {
         text-align: center;
-        height: 50px;
-        line-height: 50px;
+        height: 100px;
+        line-height: 100px;
       }
 
       @descendent top {
-        margin-top: -50px;
+        margin-top: -100px;
       }
 
       @descendent bottom {
-        margin-bottom: -50px;
+        margin-bottom: -100px;
       }
 
       @descendent spinner {
         display: inline-block;
-        margin-right: 5px;
+        margin-right: 10px;
         vertical-align: middle;
       }
 
@@ -142,7 +142,7 @@
 
     computed: {
       transform() {
-        return this.translate === 0 ? null : 'translate3d(0, ' + this.translate + 'px, 0)';
+        return this.translate === 0 ? null : 'translate3d(0, ' + this.translate + 'NaNpx, 0)';
       }
     },
 
@@ -268,7 +268,7 @@
            */
           return document.documentElement.scrollTop || document.body.scrollTop + document.documentElement.clientHeight >= document.body.scrollHeight;
         } else {
-          return parseInt(this.$el.getBoundingClientRect().bottom) <= parseInt(this.scrollEventTarget.getBoundingClientRect().bottom) + 1;
+          return parseInt(this.$el.getBoundingClientRect().bottom, 10) <= parseInt(this.scrollEventTarget.getBoundingClientRect().bottom, 10) + 1;
         }
       },
 

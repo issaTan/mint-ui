@@ -88,7 +88,7 @@
         var arc = (Math.PI - this.offset * 2) / (this.slotChildren.length - 1) * i + this.offset + direction_arc;
         var x = (Math.cos(arc) * this.radius).toFixed(2);
         var y = (Math.sin(arc) * this.radius).toFixed(2);
-        var item_css = '.expand .palette-button-' + this._uid + '-sub-' + i + '{transform:translate(' + x + 'px,' + y + 'px) rotate(720deg);transition-delay:' + 0.03 * i + 's}';
+        var item_css = '.expand .palette-button-' + this._uid + '-sub-' + i + '{transform:translate(' + x + 'NaNpx,' + y + 'NaNpx) rotate(720deg);transition-delay:' + 0.03 * i + 's}';
         css += item_css;
 
         this.slotChildren[i].elm.className += (' palette-button-' + this._uid + '-sub-' + i);
@@ -115,9 +115,9 @@
     display:inline-block;
     position:relative;
     border-radius:50%;
-    width: 56px;
-    height:56px;
-    line-height:56px;
+    width: 112px;
+    height:112px;
+    line-height:112px;
     text-align:center;
     transition:transform .1s ease-in-out;
   }
@@ -137,10 +137,10 @@
   }
   .mint-sub-button-container>*{
     position:absolute;
-    top:15px;
-    left:15px;
-    width:25px;
-    height:25px;
+    top:30px;
+    left:30px;
+    width:50px;
+    height:50px;
     transition: transform .3s ease-in-out;
   }
 

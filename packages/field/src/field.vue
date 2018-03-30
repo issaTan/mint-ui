@@ -159,16 +159,16 @@ export default {
         align-items: inherit;
 
         .mint-cell-title {
-          padding: 10px 0;
+          padding: 20px 0;
         }
 
         .mint-cell-value {
-          padding: 5px 0;
+          padding: 10px 0;
         }
       }
 
       .mint-cell-title {
-        width: 105px;
+        width: 210px;
         flex: none;
       }
 
@@ -195,10 +195,10 @@ export default {
 
       @descendent state {
         color: inherit;
-        margin-left: 20px;
+        margin-left: 40px;
 
         .mintui {
-          font-size: 20px;
+          font-size: 40px;
         }
 
         @when error {

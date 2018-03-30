@@ -30,30 +30,30 @@
       transform: translate3d(-50%, -50%, 0);
       background-color: #fff;
       width: 85%;
-      border-radius: 3px;
-      font-size: 16px;
+      border-radius: 6px;
+      font-size: 32px;
       -webkit-user-select: none;
       overflow: hidden;
       backface-visibility: hidden;
       transition: .2s;
 
       @descendent header {
-        padding: 15px 0 0;
+        padding: 30px 0 0;
       }
 
       @descendent content {
-        padding: 10px 20px 15px;
+        padding: 20px 40px 30px;
         border-bottom: 1px solid #ddd;
-        min-height: 36px;
+        min-height: 72px;
         position: relative;
       }
 
       @descendent input {
-        padding-top: 15px;
+        padding-top: 30px;
         & input {
           border: 1px solid #dedede;
-          border-radius: 5px;
-          padding: 4px 5px;
+          border-radius: 10px;
+          padding: 8px 10px;
           width: 100%;
           appearance: none;
           outline: none;
@@ -68,16 +68,16 @@
 
       @descendent errormsg {
         color: red;
-        font-size: 12px;
-        min-height: 18px;
-        margin-top: 2px;
+        font-size: 24px;
+        min-height: 36px;
+        margin-top: 4px;
       }
 
       @descendent title {
         text-align: center;
         padding-left: 0;
         margin-bottom: 0;
-        font-size: 16px;
+        font-size: 32px;
         font-weight: bold;
         color: #333;
       }
@@ -86,7 +86,7 @@
         color: #999;
         margin: 0;
         text-align: center;
-        line-height: 36px;
+        line-height: 72px;
       }
 
       @descendent btns {
@@ -94,12 +94,12 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 40px;
-        line-height: 40px;
+        height: 80px;
+        line-height: 80px;
       }
 
       @descendent btn {
-        line-height: 35px;
+        line-height: 70px;
         display: block;
         background-color: #fff;
         flex: 1;

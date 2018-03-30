@@ -97,7 +97,7 @@ export default {
       background-color: $color-white;
       box-sizing: border-box;
       color: inherit;
-      min-height: 48px;
+      min-height: 96px;
       display: block;
       overflow: hidden;
       position: relative;
@@ -125,11 +125,11 @@ export default {
         align-items: center;
         box-sizing: border-box;
         display: flex;
-        font-size: 16px;
+        font-size: 32px;
         line-height: 1;
         min-height: inherit;
         overflow: hidden;
-        padding: 0 10px;
+        padding: 0 20px;
         width: 100%;
       }
 
@@ -153,8 +153,8 @@ export default {
       @descendent label {
         color: #888;
         display: block;
-        font-size: 12px;
-        margin-top: 6px;
+        font-size: 24px;
+        margin-top: 12px;
       }
 
       img {
@@ -171,7 +171,7 @@ export default {
         align-items: center;
 
         @when link {
-          margin-right: 24px;
+          margin-right: 48px;
         }
       }
 
@@ -191,12 +191,12 @@ export default {
       }
 
       @descendent allow-right::after {
-        border: solid 2px $border-color;
+        border: solid 4px $border-color;
         border-bottom-width: 0;
         border-left-width: 0;
         content: " ";
-        position: absolute 50% 20px * *;
-        size: 5px;
+        position: absolute 50% 40px * *;
+        size: 10px;
         transform: translateY(-50%) rotate(45deg);
       }
     }

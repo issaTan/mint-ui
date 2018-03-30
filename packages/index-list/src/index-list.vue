@@ -1,6 +1,6 @@
 <template>
   <div class="mint-indexlist">
-    <ul class="mint-indexlist-content" ref="content" :style="{ 'height': currentHeight + 'px', 'margin-right': navWidth + 'px'}">
+    <ul class="mint-indexlist-content" ref="content" :style="{ 'height': currentHeight + 'NaNpx', 'margin-right': navWidth + 'NaNpx'}">
       <slot></slot>
     </ul>
     
@@ -54,24 +54,24 @@
       }
       
       @descendent navitem {
-        padding: 2px 6px;
-        font-size: 12px;
+        padding: 4px 12px;
+        font-size: 24px;
         user-select: none;
         -webkit-touch-callout: none;
       }
       
       @descendent indicator {
         position: absolute;
-        size: 50px;
+        size: 100px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        line-height: 50px;
+        line-height: 100px;
         background-color: rgba(0, 0, 0, .7);
-        border-radius: 5px;
+        border-radius: 10px;
         color: #fff;
-        font-size: 22px;
+        font-size: 44px;
       }
     }
   }

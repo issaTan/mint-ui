@@ -112,7 +112,7 @@ export default {
     },
 
     swipeMove(offset) {
-      this.wrap.style.webkitTransform = `translate3d(${offset}px, 0, 0)`;
+      this.wrap.style.webkitTransform = `translate3d(${offset}NaNpx, 0, 0)`;
       this.swiping = true;
     },
 

@@ -2,8 +2,8 @@
   <div class="mt-range" :class="{ 'mt-range--disabled': disabled }">
     <slot name="start"></slot>
     <div class="mt-range-content" ref="content">
-      <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'px' }"></div>
-      <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'px' }"></div>
+      <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'NaNpx' }"></div>
+      <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'NaNpx' }"></div>
       <div class="mt-range-thumb" ref="thumb" :style="{ left: progress + '%' }"></div>
     </div>
     <slot name="end"></slot>
@@ -15,8 +15,8 @@
     @component range {
       position: relative;
       display: flex;
-      height: 30px;
-      line-height: 30px;
+      height: 60px;
+      line-height: 60px;
 
       & > * {
         display: flex;
@@ -24,17 +24,17 @@
       }
 
       & *[slot=start] {
-        margin-right: 5px;
+        margin-right: 10px;
       }
 
       & *[slot=end] {
-        margin-left: 5px;
+        margin-left: 10px;
       }
 
       @descendent content {
         position: relative;
         flex: 1;
-        margin-right: 30px;
+        margin-right: 60px;
       }
 
       @descendent runway {
@@ -42,7 +42,7 @@
         top: 50%;
         transform: translateY(-50%);
         left: 0;
-        right: -30px;
+        right: -60px;
         border-top-color: #a9acb1;
         border-top-style: solid;
       }
@@ -52,11 +52,11 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         border-radius: 100%;
         cursor: move;
-        box-shadow: 0 1px 3px rgba(0,0,0,.4);
+        box-shadow: 0 1px 6px rgba(0,0,0,.4);
       }
 
       @descendent progress {

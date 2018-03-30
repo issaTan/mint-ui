@@ -1,7 +1,7 @@
 <template>
   <div class="picker-slot" :class="classNames" :style="flexStyle">
-    <div v-if="!divider" ref="wrapper" class="picker-slot-wrapper" :class="{ dragging: dragging }" :style="{ height: contentHeight + 'px' }">
-      <div class="picker-item" v-for="itemValue in mutatingValues" :class="{ 'picker-selected': itemValue === currentValue }" :style="{ height: itemHeight + 'px', lineHeight: itemHeight + 'px' }">
+    <div v-if="!divider" ref="wrapper" class="picker-slot-wrapper" :class="{ dragging: dragging }" :style="{ height: contentHeight + 'NaNpx' }">
+      <div class="picker-item" v-for="itemValue in mutatingValues" :class="{ 'picker-selected': itemValue === currentValue }" :style="{ height: itemHeight + 'NaNpx', lineHeight: itemHeight + 'NaNpx' }">
         {{ typeof itemValue === 'object' && itemValue[valueKey] ? itemValue[valueKey] : itemValue }}
       </div>
     </div>
@@ -11,7 +11,7 @@
 
 <style>
   .picker-slot {
-    font-size: 18px;
+    font-size: 36px;
     overflow: hidden;
     position: relative;
     max-height: 100%
@@ -47,9 +47,9 @@
   }
 
   .picker-item {
-    height: 36px;
-    line-height: 36px;
-    padding: 0 10px;
+    height: 72px;
+    line-height: 72px;
+    padding: 0 20px;
     white-space: nowrap;
     position: relative;
     overflow: hidden;
@@ -78,7 +78,7 @@
 
   .picker-3d .picker-items {
     overflow: hidden;
-    perspective: 700px;
+    perspective: 1400px;
   }
 
   .picker-3d .picker-item,

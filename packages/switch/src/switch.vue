@@ -54,7 +54,7 @@ export default {
       }
 
       @descendent label {
-        margin-left: 10px;
+        margin-left: 20px;
         display: inline-block;
 
         &:empty {
@@ -65,9 +65,9 @@ export default {
       @descendent core {
         display: inline-block;
         position: relative;
-        size: 52px 32px;
+        size: 104px 64px;
         border: 1px solid $color-grey;
-        border-radius: 16px;
+        border-radius: 32px;
         box-sizing: border-box;
         background: $color-grey;
 
@@ -75,17 +75,17 @@ export default {
           content: " ";
           position: absolute 0 * * 0;
           transition:transform .3s;
-          border-radius: 15px;
+          border-radius: 30px;
         }
 
         &::after {
-          size: 30px;
+          size: 60px;
           background-color: $color-white;
-          box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, .4);
         }
 
         &::before {
-          size: 50px 30px;
+          size: 100px 60px;
           background-color: #fdfdfd;
         }
       }
@@ -103,7 +103,7 @@ export default {
             }
 
             &::after {
-              transform: translateX(20px);
+              transform: translateX(40px);
             }
           }
         }

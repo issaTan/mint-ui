@@ -52,17 +52,17 @@ export default {
       }
 
       .mint-tab-item {
-        padding: 17px 0;
-        font-size: 15px;
+        padding: 34px 0;
+        font-size: 30px;
 
         &:last-child {
           border-right: 0;
         }
 
         &.is-selected {
-          border-bottom: 3px solid $color-blue;
+          border-bottom: 6px solid $color-blue;
           color: $color-blue;
-          margin-bottom: -3px;
+          margin-bottom: -6px;
         }
       }
     }

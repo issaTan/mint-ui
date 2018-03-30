@@ -35,13 +35,13 @@ export default {
   @component-namespace mint {
     @component tab-item {
       display: block;
-      padding: 7px 0;
+      padding: 14px 0;
       flex: 1;
       text-decoration: none;
 
       @descendent icon {
-        size: 24px;
-        margin: 0 auto 5px;
+        size: 48px;
+        margin: 0 auto 10px;
 
         &:empty {
           display: none;

@@ -109,20 +109,20 @@ export default {
       background-color: $color-grey;
       box-sizing: border-box;
       display: flex;
-      padding: 8px 10px;
+      padding: 16px 20px;
       z-index: 1;
 
       @descendent inner {
         align-items: center;
         background-color: $color-white;
-        border-radius: 2px;
+        border-radius: 4px;
         display: flex;
         flex: 1;
-        height: 28px;
-        padding: 4px 6px;
+        height: 56px;
+        padding: 8px 12px;
 
         .mintui-search {
-          font-size: 12px;
+          font-size: 24px;
           color: $color-grey;
         }
       }
@@ -138,14 +138,14 @@ export default {
 
       @descendent cancel {
         color: $color-blue;
-        margin-left: 10px;
+        margin-left: 20px;
         text-decoration: none;
       }
     }
 
     @component search-list {
       overflow: auto;
-      padding-top: 44px;
+      padding-top: 88px;
       position: absolute 0 0 0 0;
     }
   }

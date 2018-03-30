@@ -22,7 +22,7 @@
 <style lang="css">
   .mint-spinner-snake {
     animation: mint-spinner-rotate 0.8s infinite linear;
-    border: 4px solid transparent;
+    border: 8px solid transparent;
     border-radius: 50%;
   }
 

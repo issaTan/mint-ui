@@ -16,7 +16,7 @@
 
     computed: {
       spinnerSize() {
-        return ((this.size || this.$parent.size || 28) / 3) + 'px';
+        return ((this.size || this.$parent.size || 28) / 3) + 'NaNpx';
       },
 
       bounceStyle() {

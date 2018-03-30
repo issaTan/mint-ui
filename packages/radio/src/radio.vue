@@ -85,12 +85,12 @@ export default {
 
       @descendent label {
         display: block;
-        padding: 0 10px;
+        padding: 0 20px;
       }
 
       @descendent title {
-        font-size: 12px;
-        margin: 8px;
+        font-size: 24px;
+        margin: 16px;
         display: block;
         color: $radio-title-color;
       }
@@ -103,7 +103,7 @@ export default {
 
       @descendent label {
         vertical-align: middle;
-        margin-left: 6px;
+        margin-left: 12px;
       }
 
       @descendent input {
@@ -134,14 +134,14 @@ export default {
         border-radius: 100%;
         border: 1px solid #ccc;
         position: relative;
-        size: 20px;
+        size: 40px;
         vertical-align: middle;
 
         &::after {
           content: " ";
           border-radius: 100%;
-          position: absolute 5px * * 5px;
-          size: 8px;
+          position: absolute 10px * * 10px;
+          size: 16px;
           transition: transform .2s;
           transform: scale(0);
         }

@@ -62,21 +62,21 @@ export default {
       }
 
       @when size-normal {
-        border-radius: 12px;
-        font-size: 15px;
-        padding: 2px 8px;
+        border-radius: 24px;
+        font-size: 30px;
+        padding: 4px 16px;
       }
 
       @when size-small {
-        border-radius: 8px;
-        font-size: 12px;
-        padding: 2px 6px;
+        border-radius: 16px;
+        font-size: 24px;
+        padding: 4px 12px;
       }
 
       @when size-large {
-        border-radius: 14px;
-        font-size: 18px;
-        padding: 2px 10px;
+        border-radius: 28px;
+        font-size: 36px;
+        padding: 4px 20px;
       }
     }
   }

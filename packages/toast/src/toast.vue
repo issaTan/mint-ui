@@ -1,8 +1,8 @@
 <template>
   <transition name="mint-toast-pop">
-    <div class="mint-toast" v-show="visible" :class="customClass" :style="{ 'padding': iconClass === '' ? '10px' : '20px' }">
+    <div class="mint-toast" v-show="visible" :class="customClass" :style="{ 'padding': iconClass === '' ? '20px' : '40px' }">
       <i class="mint-toast-icon" :class="iconClass" v-if="iconClass !== ''"></i>
-      <span class="mint-toast-text" :style="{ 'padding-top': iconClass === '' ? '0' : '10px' }">{{ message }}</span>
+      <span class="mint-toast-text" :style="{ 'padding-top': iconClass === '' ? '0' : '20px' }">{{ message }}</span>
     </div>
   </transition>
 </template>
@@ -12,7 +12,7 @@
     @component toast {
       position: fixed;
       max-width: 80%;
-      border-radius: 5px;
+      border-radius: 10px;
       background: rgba(0, 0, 0, 0.7);
       color: #fff;
       box-sizing: border-box;
@@ -23,17 +23,17 @@
       @descendent icon {
         display: block;
         text-align: center;
-        font-size: 56px;
+        font-size: 112px;
       }
       
       @descendent text {
-        font-size: 14px;
+        font-size: 28px;
         display: block;
         text-align: center;
       }
       
       @when placetop {
-        top: 50px;
+        top: 100px;
         left: 50%;
         transform: translate(-50%, 0);
       }
@@ -45,7 +45,7 @@
       }
       
       @when placebottom {
-        bottom: 50px;
+        bottom: 100px;
         left: 50%;
         transform: translate(-50%, 0);
       }
