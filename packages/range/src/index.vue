@@ -1,7 +1,7 @@
 <template>
   <div class="mt-range" :class="{ 'mt-range--disabled': disabled }">
     <slot name="start"></slot>
-    <div class="mt-range-content" ref="content">
+    <div class="mt-range-content" ref="content" @click="handleClick">
       <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'NaNpx' }"></div>
       <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'NaNpx' }"></div>
       <div class="mt-range-thumb" ref="thumb" :style="{ left: progress + '%' }"></div>
@@ -165,6 +165,13 @@
           dragState = {};
         }
       });
+    },
+    methods: {
+      handleClick($event) {
+        const content = this.$refs.content;
+        const contentBox = content.getBoundingClientRect();
+        this.$emit('click', $event.clientX - contentBox.left);
+      }
     }
   };
 </script>
