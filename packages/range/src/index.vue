@@ -170,7 +170,8 @@
       handleClick($event) {
         const content = this.$refs.content;
         const contentBox = content.getBoundingClientRect();
-        this.$emit('click', $event.clientX - contentBox.left);
+        const clickLength = $event.clientX - contentBox.left;
+        this.$emit('click', clickLength / contentBox.width);
       }
     }
   };
