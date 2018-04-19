@@ -133,6 +133,7 @@
       draggable(thumb, {
         start: (event) => {
           if (this.disabled) return;
+          this.$emit('start');
           const position = getThumbPosition();
           const thumbClickDetalX = event.clientX - position.thumbBoxLeft;
           dragState = {
