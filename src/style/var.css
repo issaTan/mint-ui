@@ -10,7 +10,7 @@ $warning-color: #ffc107;
 $cell-value-color: #888;
 
 /* Header Component */
-$header-height: 40px;
+$header-height: 80px;
 
 /* Button Component */
 $button-default-color: #656b79;
@@ -23,7 +23,7 @@ $button-danger-color: #fff;
 $button-danger-background-color: #ef4f4f;
 
 /* Tab Item Component */
-$tab-item-font-size: 12px;
+$tab-item-font-size: 24px;
 
 /* Tabbar Component */
 $tabbar-background-color: #fafafa;

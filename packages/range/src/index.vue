@@ -168,6 +168,7 @@
     },
     methods: {
       handleClick($event) {
+        if (this.disabled) return;
         const content = this.$refs.content;
         const contentBox = content.getBoundingClientRect();
         const clickLength = $event.clientX - contentBox.left;
