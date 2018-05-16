@@ -78,10 +78,10 @@
 </style>
 
 <script type="text/babel">
-  import Popup from 'mint-ui/src/utils/popup';
+  import Popup from 'ym-mint-ui/src/utils/popup';
   import Vue from 'vue';
   if (!Vue.prototype.$isServer) {
-    require('mint-ui/src/style/popup.css');
+    require('ym-mint-ui/src/style/popup.css');
   }
 
   export default {

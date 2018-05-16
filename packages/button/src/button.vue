@@ -19,7 +19,7 @@
 
 <script>
 if (process.env.NODE_ENV === 'component') {
-  require('mint-ui/packages/font/style.css');
+  require('ym-mint-ui/packages/font/style.css');
 }
 
 /**

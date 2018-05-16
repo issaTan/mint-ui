@@ -1,2 +1,2 @@
-import 'mint-ui/src/style/empty.css';
+import 'ym-mint-ui/src/style/empty.css';
 export { default } from './src/lazyload.js';
