@@ -9,7 +9,7 @@
     "eleme",
     "mint-ui"
   ],
-  "main": "lib/mint-ui.common.js",
+  "main": "lib/ym-mint-ui.common.js",
   "style": "lib/style.css",
   "files": [
     "lib",

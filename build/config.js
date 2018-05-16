@@ -4,8 +4,8 @@ var dependencies = require('../package.json').dependencies;
 var externals = {};
 var pkg = {};
 Object.keys(Components).forEach(function(key) {
-  externals[`ym-mint-ui/packages/${key}/index.js`] = `mint-ui/lib/${key}`;
-  externals[`ym-mint-ui/packages/${key}/style.css`] = `mint-ui/lib/${key}/style.css`;
+  externals[`ym-mint-ui/packages/${key}/index.js`] = `ym-mint-ui/lib/${key}`;
+  externals[`ym-mint-ui/packages/${key}/style.css`] = `ym-mint-ui/lib/${key}/style.css`;
 });
 Object.keys(dependencies).forEach(function(key) {
   externals[key] = key;
