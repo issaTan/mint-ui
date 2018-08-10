@@ -45,7 +45,7 @@
         position: absolute 0 * * 0;
 
         &::before {
-          content: " ";
+          content: " " !important;
           display: block;
           margin: 0 auto;
           size: 15%;

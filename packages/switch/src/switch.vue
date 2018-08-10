@@ -72,7 +72,7 @@ export default {
         background: $border-color;
 
         &::after, &::before {
-          content: " ";
+          content: " " !important;
           position: absolute 0 * * 0;
           transition:transform .3s;
           border-radius: 30px;

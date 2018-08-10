@@ -136,7 +136,7 @@ export default {
       @descendent mask {
         &::after {
           background-color: #000;
-          content: " ";
+          content: " " !important;
           opacity: 0;
           position: absolute 0;
         }
@@ -194,7 +194,7 @@ export default {
         border: solid 4px $border-color;
         border-bottom-width: 0;
         border-left-width: 0;
-        content: " ";
+        content: " " !important;
         position: absolute 50% 40px * *;
         size: 10px;
         transform: translateY(-50%) rotate(45deg);

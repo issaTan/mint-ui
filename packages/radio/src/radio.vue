@@ -138,7 +138,7 @@ export default {
         vertical-align: middle;
 
         &::after {
-          content: " ";
+          content: " " !important;
           border-radius: 100%;
           position: absolute 10px * * 10px;
           size: 16px;

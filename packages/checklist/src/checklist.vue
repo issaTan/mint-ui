@@ -156,7 +156,7 @@ export default {
           border: 4px solid transparent;
           border-left: 0;
           border-top: 0;
-          content: " ";
+          content: " " !important;
           position: absolute 6px * * 12px;
           size: 8px 16px;
           transform: rotate(45deg) scale(0);

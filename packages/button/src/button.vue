@@ -98,7 +98,7 @@ export default {
 
       &::after {
         background-color: #000;
-        content: " ";
+        content: " " !important;
         opacity: 0;
         position: absolute 0 0 0 0;
       }

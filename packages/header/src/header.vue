@@ -66,7 +66,7 @@ export default {
         font-size: inherit;
 
         &::after {
-          content: none;
+          content: none !important;
         }
       }
 
