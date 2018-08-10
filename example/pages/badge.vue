@@ -25,7 +25,7 @@
       </div>
 
       <div class="page-part">
-        <mt-badge size="small" color="#888">自定义颜色</mt-badge>
+        <mt-badge size="small" color="#999">自定义颜色</mt-badge>
       </div>
     </div>
 

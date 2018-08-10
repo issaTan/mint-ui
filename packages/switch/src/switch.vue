@@ -66,10 +66,10 @@ export default {
         display: inline-block;
         position: relative;
         size: 104px 64px;
-        border: 1px solid $color-grey;
+        border: 1px solid $border-color;
         border-radius: 32px;
         box-sizing: border-box;
-        background: $color-grey;
+        background: $border-color;
 
         &::after, &::before {
           content: " ";
@@ -95,8 +95,8 @@ export default {
 
         &:checked {
           + .mint-switch-core {
-            border-color: $color-blue;
-            background-color: $color-blue;
+            border-color: $color-priamy;
+            background-color: $color-priamy;
 
             &::before {
               transform: scale(0);

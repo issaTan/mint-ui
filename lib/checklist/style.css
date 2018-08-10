@@ -11,15 +11,15 @@
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-checklist-label {
     display: block;
     padding: 0 20px;
 }
 .mint-checklist-title {
-    color: #888;
+    color: #999;
     display: block;
     font-size: 24px;
     margin: 16px;
@@ -36,8 +36,8 @@
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #f28f3a;
+    border-color: #f28f3a;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #fff;
@@ -45,8 +45,8 @@
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d9d9d9;
-    border-color: #ccc;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-checkbox-core {
     display: inline-block;

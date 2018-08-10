@@ -52,17 +52,47 @@ export default {
       }
 
       .mint-tab-item {
-        padding: 34px 0;
-        font-size: 30px;
+        padding: 30px 0;
+        font-size: 32px;
+        position: relative;
+        border-bottom: 1px solid $border-color;
+
+        &::before, &::after {
+         content: "";
+         display: block;
+        }
+
+        &::before {
+          width: 80px;
+          height: 4px;
+          background-color: $color-white;
+          border-radius: 4px;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        &::after {
+          width: 1px;
+          height: 30px;
+          background-color: $border-color;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+         }
 
         &:last-child {
-          border-right: 0;
+          &::after {
+            width: 0;
+          }
         }
 
         &.is-selected {
-          border-bottom: 6px solid $color-blue;
-          color: $color-blue;
-          margin-bottom: -6px;
+          &::before {
+            background-color: $color-priamy;
+          }
         }
       }
     }

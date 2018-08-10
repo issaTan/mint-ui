@@ -21,7 +21,7 @@
 
     .indexicon {
       font-size: 22px;
-      color: #26a2ff;
+      color: #f28f3a;
       display: inline-block;
       width: 30px;
       vertical-align: middle;

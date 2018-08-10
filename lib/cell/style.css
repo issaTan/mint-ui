@@ -24,16 +24,16 @@
     background-origin:border-box;
 }
 .mint-cell:last-child {
-    background-image:-webkit-linear-gradient(bottom, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(0deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-size:100% 1px;
+    background-image:-webkit-linear-gradient(bottom, #eee, #eee 50%, transparent 50%);
+    background-image:linear-gradient(0deg, #eee, #eee 50%, transparent 50%);
+    background-size:100% 2px;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 .mint-cell-wrapper {
-    background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-size: 120% 1px;
+    background-image:-webkit-linear-gradient(top, #eee, #eee 50%, transparent 50%);
+    background-image:linear-gradient(180deg, #eee, #eee 50%, transparent 50%);
+    background-size: 120% 2px;
     background-repeat: no-repeat;
     background-position: top left;
     background-origin: content-box;
@@ -69,7 +69,7 @@
     vertical-align: middle;
 }
 .mint-cell-label {
-    color: #888;
+    color: #999;
     display: block;
     font-size: 24px;
     margin-top: 12px;
@@ -80,7 +80,7 @@
             flex: 1;
 }
 .mint-cell-value {
-    color: #888;
+    color: #999;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -107,7 +107,7 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-allow-right::after {
-    border: solid 4px #c8c8cd;
+    border: solid 4px #eee;
     border-bottom-width: 0;
     border-left-width: 0;
     content: " ";

@@ -106,8 +106,8 @@ export default {
 
       @when limit {
         .mint-checkbox-core:not(:checked) {
-          background-color: $color-grey;
-          border-color: $color-grey;
+          background-color: $border-color;
+          border-color: $border-color;
         }
       }
     }
@@ -127,8 +127,8 @@ export default {
 
         &:checked {
           + .mint-checkbox-core {
-            background-color: $color-blue;
-            border-color: $color-blue;
+            background-color: $color-priamy;
+            border-color: $color-priamy;
 
             &::after {
               border-color: $color-white;
@@ -138,8 +138,8 @@ export default {
         }
 
         &[disabled] + .mint-checkbox-core {
-          background-color: $color-grey;
-          border-color: #ccc;
+          background-color: $border-color;
+          border-color: $border-color;
         }
       }
 

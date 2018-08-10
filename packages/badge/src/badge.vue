@@ -50,7 +50,7 @@ export default {
       }
 
       @when primary {
-        background-color: $color-blue;
+        background-color: $color-priamy;
       }
 
       @when error {

@@ -95,11 +95,11 @@
   color: #000;
 }
 .mint-msgbox-confirm {
-  color: #26a2ff;
+  color: #f28f3a;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
-  color: #26a2ff;
+  color: #f28f3a;
 }
 .msgbox-bounce-enter {
   opacity: 0;

@@ -44,12 +44,9 @@ export default {
 
   @component-namespace mint {
     @component tabbar {
-      background-image:linear-gradient(180deg, $color-grey, $color-grey 50%, transparent 50%);
-      background-size: 100% 1px;
-      background-repeat: no-repeat;
-      background-position: top left;
       position: relative;
       background-color: $tabbar-background-color;
+      box-shadow: 0 -2px 4px rgba(0,0,0,.1);
       display: flex;
       position: absolute * 0 0 0;
       text-align: center;
@@ -59,8 +56,11 @@ export default {
         z-index: $z-index-normal;
       }
 
+      .mint-tab-item-label {
+        font-size: inherit;
+      }
+
       > .mint-tab-item.is-selected {
-        background-color: $tabbar-tab-item-selected-background-color;
         color: $tabbar-tab-item-selected-color;
       }
     }

@@ -110,15 +110,15 @@ export default {
       }
 
       &:last-child {
-        background-image: linear-gradient(0deg, $color-grey, $color-grey 50%, transparent 50%);
-        background-size: 100% 1px;
+        background-image: linear-gradient(0deg, $border-color, $border-color 50%, transparent 50%);
+        background-size: 100% 2px;
         background-repeat: no-repeat;
         background-position: bottom;
       }
 
       @descendent wrapper {
-        background-image:linear-gradient(180deg, $color-grey, $color-grey 50%, transparent 50%);
-        background-size: 120% 1px;
+        background-image:linear-gradient(180deg, $border-color, $border-color 50%, transparent 50%);
+        background-size: 120% 2px;
         background-repeat: no-repeat;
         background-position: top left;
         background-origin: content-box;
@@ -151,7 +151,7 @@ export default {
       }
 
       @descendent label {
-        color: #888;
+        color: #999;
         display: block;
         font-size: 24px;
         margin-top: 12px;
