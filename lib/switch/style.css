@@ -37,7 +37,7 @@
     background: #eee;
 }
 .mint-switch-core::after, .mint-switch-core::before {
-    content: " ";
+    content: " " !important;
     top: 0;
     left: 0;
     position: absolute;

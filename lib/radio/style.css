@@ -56,7 +56,7 @@
     vertical-align: middle;
 }
 .mint-radio-core::after {
-    content: " ";
+    content: " " !important;
     border-radius: 100%;
     top: 10px;
     left: 10px;

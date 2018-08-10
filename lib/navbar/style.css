@@ -21,7 +21,7 @@
     border-bottom: 1px solid #eee
 }
 .mint-navbar .mint-tab-item::before, .mint-navbar .mint-tab-item::after {
-    content: "";
+    content: " " !important;
     display: block;
 }
 .mint-navbar .mint-tab-item::before {

@@ -54,7 +54,7 @@
 .mint-cell-mask {}
 .mint-cell-mask::after {
     background-color:#000;
-    content:" ";
+    content:" " !important;
     opacity:0;
     top:0;
     right:0;
@@ -110,7 +110,7 @@
     border: solid 4px #eee;
     border-bottom-width: 0;
     border-left-width: 0;
-    content: " ";
+    content: " " !important;
     top:50%;
     right:40px;
     position: absolute;

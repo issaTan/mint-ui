@@ -10,7 +10,7 @@
     position: absolute
 }
 .mint-spinner-fading-circle-circle::before {
-    content: " ";
+    content: " " !important;
     display: block;
     margin: 0 auto;
     width: 15%;

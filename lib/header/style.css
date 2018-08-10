@@ -35,7 +35,7 @@
     font-size: inherit
 }
 .mint-header .mint-button::after {
-    content: none;
+    content: none !important;
 }
 .mint-header.is-fixed {
     top: 0;

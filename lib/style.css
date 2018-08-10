@@ -35,7 +35,7 @@
     font-size: inherit
 }
 .mint-header .mint-button::after {
-    content: none;
+    content: none !important;
 }
 .mint-header.is-fixed {
     top: 0;
@@ -95,7 +95,7 @@
 }
 .mint-button::after {
     background-color: #000;
-    content: " ";
+    content: " " !important;
     opacity: 0;
     top: 0;
     right: 0;
@@ -212,7 +212,7 @@
 .mint-cell-mask {}
 .mint-cell-mask::after {
     background-color:#000;
-    content:" ";
+    content:" " !important;
     opacity:0;
     top:0;
     right:0;
@@ -268,7 +268,7 @@
     border: solid 4px #eee;
     border-bottom-width: 0;
     border-left-width: 0;
-    content: " ";
+    content: " " !important;
     top:50%;
     right:40px;
     position: absolute;
@@ -468,7 +468,7 @@
     background: #eee;
 }
 .mint-switch-core::after, .mint-switch-core::before {
-    content: " ";
+    content: " " !important;
     top: 0;
     left: 0;
     position: absolute;
@@ -618,7 +618,7 @@ display: inline-block;
     position: absolute
 }
 .mint-spinner-fading-circle-circle::before {
-    content: " ";
+    content: " " !important;
     display: block;
     margin: 0 auto;
     width: 15%;
@@ -811,7 +811,7 @@ display: inline-block;
     border-bottom: 1px solid #eee
 }
 .mint-navbar .mint-tab-item::before, .mint-navbar .mint-tab-item::after {
-    content: "";
+    content: " " !important;
     display: block;
 }
 .mint-navbar .mint-tab-item::before {
@@ -1019,7 +1019,7 @@ display: inline-block;
     border: 4px solid transparent;
     border-left: 0;
     border-top: 0;
-    content: " ";
+    content: " " !important;
     top: 6px;
     left: 12px;
     position: absolute;
@@ -1090,7 +1090,7 @@ display: inline-block;
     vertical-align: middle;
 }
 .mint-radio-core::after {
-    content: " ";
+    content: " " !important;
     border-radius: 100%;
     top: 10px;
     left: 10px;
