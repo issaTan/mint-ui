@@ -58,7 +58,7 @@ export default {
         border-bottom: 1px solid $border-color;
 
         &::before, &::after {
-         content: "";
+         content: " ";
          display: block;
         }
 
