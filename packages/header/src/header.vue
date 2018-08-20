@@ -44,11 +44,11 @@ export default {
   @component-namespace mint {
     @component header {
       align-items: center;
-      background-color: $color-priamy;
+      background-color: $header-background-color;
       box-sizing: border-box;
-      color: $color-white;
+      color: $color-priamy;
       display: flex;
-      font-size: 28px;
+      font-size: 36px;
       height: $header-height;
       line-height: 1;
       padding: 0 20px;

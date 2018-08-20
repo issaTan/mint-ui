@@ -11,13 +11,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #f28f3a;
+    background-color: #fffefa;
     box-sizing: border-box;
-    color: #fff;
+    color: #f28f3a;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 28px;
+    font-size: 36px;
     height: 80px;
     line-height: 1;
     padding: 0 20px;

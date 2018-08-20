@@ -34,7 +34,7 @@ import PaletteButton from '../packages/palette-button';
 import '../src/assets/font/iconfont.css';
 import merge from './utils/merge';
 
-const version = '2.2.24';
+const version = '3.0.0';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 

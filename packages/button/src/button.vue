@@ -84,13 +84,13 @@ export default {
   @component-namespace mint {
     @component button {
       appearance: none;
-      border-radius: 8px;
+      border-radius: 4px;
       border: 0;
       box-sizing: border-box;
       color: inherit;
       display: block;
       font-size: 36px;
-      height: 82px;
+      height: 80px;
       outline: 0;
       overflow: hidden;
       position: relative;
@@ -161,7 +161,7 @@ export default {
         display: inline-block;
         font-size: 28px;
         padding: 0 24px;
-        height: 66px;
+        height: 60px;
       }
 
       @when disabled {

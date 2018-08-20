@@ -11,12 +11,13 @@ $cell-value-color: #999;
 
 /* Header Component */
 $header-height: 80px;
+$header-background-color: #fffefa;
 
 /* Button Component */
-$button-default-color: #656b79;
+$button-default-color: #282828;
 $button-default-background-color: #f6f8fa;
-$button-default-plain-color: #5a5a5a;
-$button-default-box-shadow: 0 0 1px #b8bbbf;
+$button-default-plain-color: #282828;
+$button-default-box-shadow: 0 0 1px #eee;
 $button-primary-color: #fff;
 $button-primary-background-color: #f28f3a;
 $button-danger-color: #fff;
