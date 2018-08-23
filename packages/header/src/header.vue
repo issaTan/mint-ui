@@ -46,7 +46,8 @@ export default {
       align-items: center;
       background-color: $header-background-color;
       box-sizing: border-box;
-      color: $color-priamy;
+      color: $color-base;
+      border-bottom: 1px solid $border-color;
       display: flex;
       font-size: 36px;
       height: $header-height;

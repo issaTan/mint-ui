@@ -59,7 +59,8 @@ export default {
         return [
           'default',
           'danger',
-          'primary'
+          'primary',
+          'text'
         ].indexOf(value) > -1;
       }
     },
@@ -97,19 +98,25 @@ export default {
       text-align: center;
 
       &::after {
-        background-color: #000;
+        background-color: rgba(0, 0, 0, .4);
         content: " " !important;
         opacity: 0;
         position: absolute 0 0 0 0;
       }
 
       &:not(.is-disabled):active::after {
-        opacity: .4;
+        opacity: 1;
       }
 
       @descendent icon {
         vertical-align: middle;
         display: inline-block;
+      }
+
+      @modifier text {
+        color: $button-default-color;
+        background-color: transparent;
+        box-shadow: none;
       }
 
       @modifier default {

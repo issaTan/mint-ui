@@ -24,7 +24,7 @@
     text-align: center
 }
 .mint-button::after {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
     content: " " !important;
     opacity: 0;
     top: 0;
@@ -34,7 +34,7 @@
     position: absolute
 }
 .mint-button:not(.is-disabled):active::after {
-    opacity: .4
+    opacity: 1
 }
 .mint-button.is-disabled {
     opacity: .6
@@ -42,6 +42,11 @@
 .mint-button-icon {
     vertical-align: middle;
     display: inline-block
+}
+.mint-button--text {
+    color: #282828;
+    background-color: transparent;
+    box-shadow: none
 }
 .mint-button--default {
     color: #282828;
