@@ -1,10 +1,12 @@
 $color-priamy: #f28f3a;
 $color-white: #fff;
-$color-grey: #d9d9d9;
+$color-grey: #e9e9e9;
 $color-base: #282828;
-$border-color: #eee;
+$color-text-light: #555;
+$color-text-lighter: #999;
+$border-color: #d4d4d4;
 $success-color: #4caf50;
-$error-color: #ec3c4B;
+$error-color: #ec3c4b;
 $warning-color: #ffc107;
 
 /* Cell Component */
@@ -12,34 +14,34 @@ $cell-value-color: #999;
 
 /* Header Component */
 $header-height: 80px;
-$header-background-color: #fffefa;
+$header-background-color: $color-white;
 
 /* Button Component */
-$button-default-color: #282828;
-$button-default-background-color: #f6f8fa;
-$button-default-plain-color: #282828;
-$button-default-box-shadow: 0 0 1px #eee;
-$button-primary-color: #fff;
-$button-primary-background-color: #f28f3a;
-$button-danger-color: #fff;
-$button-danger-background-color: #ec3c4B;
+$button-default-color: $color-text-lighter;
+$button-default-background-color: $color-grey;
+$button-default-plain-color: $color-text-lighter;
+$button-default-box-shadow: 0 0 1px $border-color;
+$button-primary-color: $color-white;
+$button-primary-background-color: $color-priamy;
+$button-danger-color: $color-white;
+$button-danger-background-color: $error-color;
 
 /* Tab Item Component */
 $tab-item-font-size: 32px;
 
 /* Tabbar Component */
-$tabbar-background-color: #fff;
+$tabbar-background-color: $color-white;
 $tabbar-tab-item-selected-color: $color-priamy;
 
 /* Navbar Component */
-$navbar-background-color: #fff;
-$tabbar-tab-item-selected-background-color: #eaeaea;
+$navbar-background-color: $color-white;
+$tabbar-tab-item-selected-background-color: $color-grey;
 
 /* Checklist Component */
-$checklist-title-color: #999;
+$checklist-title-color: $color-text-lighter;
 
 /* Radio Component */
-$radio-title-color: #999;
+$radio-title-color: $color-text-lighter;
 
 /* z-index */
 $z-index-normal: 1;

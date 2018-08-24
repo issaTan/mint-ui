@@ -60,7 +60,8 @@ export default {
           'default',
           'danger',
           'primary',
-          'text'
+          'text',
+          'disabled'
         ].indexOf(value) > -1;
       }
     },
@@ -169,7 +170,7 @@ export default {
       @modifier small {
         display: inline-block;
         font-size: 24px;
-        padding: 0 32px;
+        padding: 0 30px;
         height: 44px;
       }
 

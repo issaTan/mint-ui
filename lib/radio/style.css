@@ -41,8 +41,8 @@
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #eee;
-    border-color: #eee;
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
 }
 .mint-radio-core {
     box-sizing: border-box;

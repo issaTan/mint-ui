@@ -11,10 +11,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #fffefa;
+    background-color: #fff;
     box-sizing: border-box;
     color: #282828;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #d4d4d4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -31,10 +31,10 @@
     position: relative;
     width: 104px;
     height: 64px;
-    border: 1px solid #eee;
+    border: 1px solid #d4d4d4;
     border-radius: 32px;
     box-sizing: border-box;
-    background: #eee;
+    background: #d4d4d4;
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " " !important;
