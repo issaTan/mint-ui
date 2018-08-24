@@ -114,9 +114,11 @@ export default {
       }
 
       @modifier text {
-        color: $button-default-color;
+        color: inherit;
+        font-size: inherit;
         background-color: transparent;
         box-shadow: none;
+        height: auto;
       }
 
       @modifier default {
@@ -166,9 +168,9 @@ export default {
 
       @modifier small {
         display: inline-block;
-        font-size: 28px;
-        padding: 0 24px;
-        height: 60px;
+        font-size: 24px;
+        padding: 0 32px;
+        height: 44px;
       }
 
       @when disabled {
