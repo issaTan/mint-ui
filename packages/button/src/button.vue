@@ -91,7 +91,7 @@ export default {
       box-sizing: border-box;
       color: inherit;
       display: block;
-      font-size: 36px;
+      font-size: 28px;
       height: 80px;
       outline: 0;
       overflow: hidden;
@@ -112,6 +112,11 @@ export default {
       @descendent icon {
         vertical-align: middle;
         display: inline-block;
+      }
+
+      @descendent text {
+        vertical-align: middle;
+        line-height: 1;
       }
 
       @modifier text {
@@ -158,6 +163,7 @@ export default {
       }
 
       @modifier large {
+        font-size: 32px;
         display: block;
         width: 100%;
       }
