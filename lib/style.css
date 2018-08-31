@@ -88,7 +88,7 @@
     color: inherit;
     display: block;
     font-size: 28px;
-    height: 80px;
+    height: 60px;
     outline: 0;
     overflow: hidden;
     position: relative;
@@ -157,6 +157,7 @@
 .mint-button--large {
     font-size: 32px;
     display: block;
+    height: 80px;
     width: 100%
 }
 .mint-button--normal {

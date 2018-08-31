@@ -92,7 +92,7 @@ export default {
       color: inherit;
       display: block;
       font-size: 28px;
-      height: 80px;
+      height: 60px;
       outline: 0;
       overflow: hidden;
       position: relative;
@@ -165,6 +165,7 @@ export default {
       @modifier large {
         font-size: 32px;
         display: block;
+        height: 80px;
         width: 100%;
       }
 
