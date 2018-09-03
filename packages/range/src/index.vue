@@ -2,8 +2,8 @@
   <div class="mt-range" :class="{ 'mt-range--disabled': disabled }">
     <slot name="start"></slot>
     <div class="mt-range-content" ref="content" @click="handleClick">
-      <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'NaNpx' }"></div>
-      <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'NaNpx' }"></div>
+      <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'px' }"></div>
+      <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'px' }"></div>
       <div class="mt-range-thumb" ref="thumb" :style="{ left: progress + '%' }"></div>
     </div>
     <slot name="end"></slot>
@@ -15,8 +15,8 @@
     @component range {
       position: relative;
       display: flex;
-      height: 60px;
-      line-height: 60px;
+      height: $range-thumb-size;
+      line-height: $range-thumb-size;
 
       & > * {
         display: flex;
@@ -34,7 +34,7 @@
       @descendent content {
         position: relative;
         flex: 1;
-        margin-right: 60px;
+        margin-right: $range-thumb-size;
       }
 
       @descendent runway {
@@ -42,9 +42,10 @@
         top: 50%;
         transform: translateY(-50%);
         left: 0;
-        right: -60px;
-        border-top-color: #a9acb1;
+        right: -$range-thumb-size;
+        border-top-color: $range-background-color;
         border-top-style: solid;
+        border-radius:3px;
       }
 
       @descendent thumb {
@@ -52,17 +53,17 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: 60px;
-        height: 60px;
+        width: $range-thumb-size;
+        height: $range-thumb-size;
         border-radius: 100%;
         cursor: move;
-        box-shadow: 0 1px 6px rgba(0,0,0,.4);
+        box-shadow:0 0 5px 0 rgba(40,40,40,0.25);
       }
 
       @descendent progress {
         position: absolute;
         display: block;
-        background-color: #f28f3a;
+        background-color: $range-background-primary-color;
         top: 50%;
         transform: translateY(-50%);
         width: 0;

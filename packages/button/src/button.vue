@@ -115,7 +115,6 @@ export default {
       }
 
       @descendent text {
-        vertical-align: middle;
         line-height: 1;
       }
 
@@ -179,6 +178,9 @@ export default {
         font-size: 24px;
         padding: 0 30px;
         height: 44px;
+        @descendent text {
+          vertical-align: middle;
+        }
       }
 
       @when disabled {

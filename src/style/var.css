@@ -1,4 +1,4 @@
-$color-priamy: #f28f3a;
+$color-primary: #f28f3a;
 $color-white: #fff;
 $color-grey: #e9e9e9;
 $color-base: #282828;
@@ -22,7 +22,7 @@ $button-default-background-color: $color-grey;
 $button-default-plain-color: $color-text-lighter;
 $button-default-box-shadow: 0 0 1px $border-color;
 $button-primary-color: $color-white;
-$button-primary-background-color: $color-priamy;
+$button-primary-background-color: $color-primary;
 $button-danger-color: $color-white;
 $button-danger-background-color: $error-color;
 
@@ -31,7 +31,7 @@ $tab-item-font-size: 32px;
 
 /* Tabbar Component */
 $tabbar-background-color: $color-white;
-$tabbar-tab-item-selected-color: $color-priamy;
+$tabbar-tab-item-selected-color: $color-primary;
 
 /* Navbar Component */
 $navbar-background-color: $color-white;
@@ -42,6 +42,11 @@ $checklist-title-color: $color-text-lighter;
 
 /* Radio Component */
 $radio-title-color: $color-text-lighter;
+
+/* Range Component */
+$range-background-primary-color: $color-primary;
+$range-background-color: #ececec;
+$range-thumb-size: 30px;
 
 /* z-index */
 $z-index-normal: 1;

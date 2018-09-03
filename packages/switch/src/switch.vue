@@ -95,8 +95,8 @@ export default {
 
         &:checked {
           + .mint-switch-core {
-            border-color: $color-priamy;
-            background-color: $color-priamy;
+            border-color: $color-primary;
+            background-color: $color-primary;
 
             &::before {
               transform: scale(0);

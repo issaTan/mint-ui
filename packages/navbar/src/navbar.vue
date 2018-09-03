@@ -91,7 +91,7 @@ export default {
 
         &.is-selected {
           &::before {
-            background-color: $color-priamy;
+            background-color: $color-primary;
           }
         }
       }

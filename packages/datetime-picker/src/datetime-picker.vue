@@ -34,7 +34,7 @@
         text-align: center;
         line-height: 80px;
         font-size: 32px;
-        color: $color-priamy;
+        color: $color-primary;
       }
 
       @descendent cancel {

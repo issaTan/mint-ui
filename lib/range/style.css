@@ -4,8 +4,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 60px;
-    line-height: 60px
+    height: $range-thumb-size;
+    line-height: $range-thumb-size
 }
 .mt-range > * {
     display: -ms-flexbox;
@@ -23,7 +23,7 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    margin-right: 60px
+    margin-right: $range-thumb-size
 }
 .mt-range-runway {
     position: absolute;
@@ -31,25 +31,26 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     left: 0;
-    right: -60px;
-    border-top-color: #a9acb1;
-    border-top-style: solid
+    right: -$range-thumb-size;
+    border-top-color: $range-background-color;
+    border-top-style: solid;
+    border-radius:3px
 }
 .mt-range-thumb {
     background-color: #fff;
     position: absolute;
     left: 0;
     top: 0;
-    width: 60px;
-    height: 60px;
+    width: $range-thumb-size;
+    height: $range-thumb-size;
     border-radius: 100%;
     cursor: move;
-    box-shadow: 0 1px 6px rgba(0,0,0,.4)
+    box-shadow:0 0 5px 0 rgba(40,40,40,0.25)
 }
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: #f28f3a;
+    background-color: $range-background-primary-color;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
