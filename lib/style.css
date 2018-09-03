@@ -1363,14 +1363,23 @@ display: inline-block;
     background: #fff;
 }
 
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mt-range {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: $range-thumb-size;
-    line-height: $range-thumb-size
+    height: 30px;
+    line-height: 30px
 }
 .mt-range > * {
     display: -ms-flexbox;
@@ -1388,7 +1397,7 @@ display: inline-block;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    margin-right: $range-thumb-size
+    margin-right: 30px
 }
 .mt-range-runway {
     position: absolute;
@@ -1396,26 +1405,26 @@ display: inline-block;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     left: 0;
-    right: -$range-thumb-size;
-    border-top-color: $range-background-color;
+    right: -30px;
+    border-top-color: #ececec;
     border-top-style: solid;
-    border-radius:3px
+    border-radius: 3px
 }
 .mt-range-thumb {
     background-color: #fff;
     position: absolute;
     left: 0;
     top: 0;
-    width: $range-thumb-size;
-    height: $range-thumb-size;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     cursor: move;
-    box-shadow:0 0 5px 0 rgba(40,40,40,0.25)
+    box-shadow:0 0 5px 0 rgba(40, 40, 40, 0.25)
 }
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: $range-background-primary-color;
+    background-color: #f28f3a;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);

@@ -10,7 +10,9 @@
   </div>
 </template>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
   @component-namespace mt {
     @component range {
       position: relative;
@@ -45,7 +47,7 @@
         right: -$range-thumb-size;
         border-top-color: $range-background-color;
         border-top-style: solid;
-        border-radius:3px;
+        border-radius: 3px;
       }
 
       @descendent thumb {
@@ -57,7 +59,7 @@
         height: $range-thumb-size;
         border-radius: 100%;
         cursor: move;
-        box-shadow:0 0 5px 0 rgba(40,40,40,0.25);
+        box-shadow:0 0 5px 0 rgba(40, 40, 40, 0.25);
       }
 
       @descendent progress {
