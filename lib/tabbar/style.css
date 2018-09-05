@@ -25,7 +25,7 @@
     font-size: inherit;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    color: #f28f3a;
+    color: #2e9f9e;
 }
 .mint-tabbar.is-fixed {
     right: 0;

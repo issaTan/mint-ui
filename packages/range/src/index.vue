@@ -69,6 +69,7 @@
         top: 50%;
         transform: translateY(-50%);
         width: 0;
+        border-radius: 3px;
       }
 
       @modifier disabled {

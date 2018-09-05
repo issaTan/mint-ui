@@ -59,11 +59,12 @@
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: #f28f3a;
+    background-color: #2e9f9e;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 0
+    width: 0;
+    border-radius: 3px
 }
 .mt-range--disabled {
     opacity: 0.5

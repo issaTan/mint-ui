@@ -14,8 +14,8 @@
             align-items: center;
     background-color: #fff;
     box-sizing: border-box;
-    color: #282828;
-    border-bottom: 1px solid #d4d4d4;
+    color: #222;
+    border-bottom: 1px solid #eee;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -129,7 +129,7 @@
 .mint-button--default {
     color: #999;
     background-color: #e9e9e9;
-    box-shadow: 0 0 1px #d4d4d4
+    box-shadow: 0 0 1px #eee
 }
 .mint-button--default.is-plain {
     border: 1px solid #999;
@@ -139,12 +139,12 @@
 }
 .mint-button--primary {
     color: #fff;
-    background-color: #f28f3a
+    background-color: #2e9f9e
 }
 .mint-button--primary.is-plain {
-    border: 1px solid #f28f3a;
+    border: 1px solid #2e9f9e;
     background-color: transparent;
-    color: #f28f3a
+    color: #2e9f9e
 }
 .mint-button--danger {
     color: #fff;
@@ -201,15 +201,15 @@
     background-origin:border-box;
 }
 .mint-cell:last-child {
-    background-image:-webkit-linear-gradient(bottom, #d4d4d4, #d4d4d4 50%, transparent 50%);
-    background-image:linear-gradient(0deg, #d4d4d4, #d4d4d4 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(bottom, #eee, #eee 50%, transparent 50%);
+    background-image:linear-gradient(0deg, #eee, #eee 50%, transparent 50%);
     background-size:100% 2px;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 .mint-cell-wrapper {
-    background-image:-webkit-linear-gradient(top, #d4d4d4, #d4d4d4 50%, transparent 50%);
-    background-image:linear-gradient(180deg, #d4d4d4, #d4d4d4 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(top, #eee, #eee 50%, transparent 50%);
+    background-image:linear-gradient(180deg, #eee, #eee 50%, transparent 50%);
     background-size: 120% 2px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -284,7 +284,7 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-allow-right::after {
-    border: solid 4px #d4d4d4;
+    border: solid 4px #eee;
     border-bottom-width: 0;
     border-left-width: 0;
     content: " " !important;
@@ -446,7 +446,7 @@
     background-color: #ec3c4b
 }
 .mint-badge.is-primary {
-    background-color: #f28f3a
+    background-color: #2e9f9e
 }
 .mint-badge.is-success {
     background-color: #4caf50
@@ -485,10 +485,10 @@
     position: relative;
     width: 104px;
     height: 64px;
-    border: 1px solid #d4d4d4;
+    border: 1px solid #eee;
     border-radius: 32px;
     box-sizing: border-box;
-    background: #d4d4d4;
+    background: #eee;
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " " !important;
@@ -516,8 +516,8 @@
     display: none;
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #f28f3a;
-    background-color: #f28f3a;
+    border-color: #2e9f9e;
+    background-color: #2e9f9e;
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);
@@ -833,7 +833,7 @@ display: inline-block;
     padding: 30px 0;
     font-size: 32px;
     position: relative;
-    border-bottom: 1px solid #d4d4d4
+    border-bottom: 1px solid #eee
 }
 .mint-navbar .mint-tab-item::before, .mint-navbar .mint-tab-item::after {
     content: " " !important;
@@ -853,7 +853,7 @@ display: inline-block;
 .mint-navbar .mint-tab-item::after {
     width: 1px;
     height: 30px;
-    background-color: #d4d4d4;
+    background-color: #eee;
     position: absolute;
     right: 0;
     top: 50%;
@@ -866,7 +866,7 @@ display: inline-block;
 }
 .mint-navbar .mint-tab-item.is-selected {}
 .mint-navbar .mint-tab-item.is-selected::before {
-    background-color: #f28f3a;
+    background-color: #2e9f9e;
 }
 .mint-navbar.is-fixed {
     top: 0;
@@ -902,7 +902,7 @@ display: inline-block;
     font-size: inherit;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    color: #f28f3a;
+    color: #2e9f9e;
 }
 .mint-tabbar.is-fixed {
     right: 0;
@@ -969,7 +969,7 @@ display: inline-block;
     outline: 0;
 }
 .mint-searchbar-cancel {
-    color: #f28f3a;
+    color: #2e9f9e;
     margin-left: 20px;
     text-decoration: none;
 }
@@ -996,8 +996,8 @@ display: inline-block;
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d4d4d4;
-    border-color: #d4d4d4;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-checklist-label {
     display: block;
@@ -1021,8 +1021,8 @@ display: inline-block;
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #f28f3a;
-    border-color: #f28f3a;
+    background-color: #2e9f9e;
+    border-color: #2e9f9e;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #fff;
@@ -1030,8 +1030,8 @@ display: inline-block;
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d4d4d4;
-    border-color: #d4d4d4;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-checkbox-core {
     display: inline-block;
@@ -1095,8 +1095,8 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #f28f3a;
-    border-color: #f28f3a;
+    background-color: #2e9f9e;
+    border-color: #2e9f9e;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;
@@ -1104,8 +1104,8 @@ display: inline-block;
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d4d4d4;
-    border-color: #d4d4d4;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-radio-core {
     box-sizing: border-box;
@@ -1424,11 +1424,12 @@ display: inline-block;
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: #f28f3a;
+    background-color: #2e9f9e;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 0
+    width: 0;
+    border-radius: 3px
 }
 .mt-range--disabled {
     opacity: 0.5
@@ -1886,7 +1887,7 @@ display: inline-block;
     text-align: center;
     line-height: 80px;
     font-size: 32px;
-    color: #f28f3a;
+    color: #2e9f9e;
 }
 .mint-datetime-cancel {
     float: left;

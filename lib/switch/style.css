@@ -32,10 +32,10 @@
     position: relative;
     width: 104px;
     height: 64px;
-    border: 1px solid #d4d4d4;
+    border: 1px solid #eee;
     border-radius: 32px;
     box-sizing: border-box;
-    background: #d4d4d4;
+    background: #eee;
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " " !important;
@@ -63,8 +63,8 @@
     display: none;
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #f28f3a;
-    background-color: #f28f3a;
+    border-color: #2e9f9e;
+    background-color: #2e9f9e;
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);

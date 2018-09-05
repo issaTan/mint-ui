@@ -33,8 +33,8 @@
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #f28f3a;
-    border-color: #f28f3a;
+    background-color: #2e9f9e;
+    border-color: #2e9f9e;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;
@@ -42,8 +42,8 @@
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d4d4d4;
-    border-color: #d4d4d4;
+    background-color: #eee;
+    border-color: #eee;
 }
 .mint-radio-core {
     box-sizing: border-box;
