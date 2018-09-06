@@ -25,10 +25,26 @@
     }
 }
 .mint-field-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0 30px;
 }
 .mint-field-icon {
+    flex-shrik: 1;
     margin-right: 20px;
+}
+.mint-field-value {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 .mint-field-core {
     -webkit-appearance: none;

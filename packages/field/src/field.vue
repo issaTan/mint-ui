@@ -157,6 +157,10 @@ export default {
       border-radius: 4px;
 
       @descendent wrapper {
+        display: flex;
+        flex: 1;
+        background-color: #fff;
+        align-items: center;
         padding: 0 30px;
       }
 
@@ -169,7 +173,12 @@ export default {
       }
 
       @descendent icon {
+        flex-shrik: 1;
         margin-right: 20px;
+      }
+
+      @descendent value {
+        flex: 1;
       }
 
       @descendent core {
