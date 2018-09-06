@@ -1,55 +1,55 @@
 <template>
-  <x-cell
-    class="mint-field"
-    v-clickoutside="doCloseActive"
-    :class="[{
+  <div class="mint-field"
+       v-clickoutside="doCloseActive"
+       :class="[{
       'is-textarea': type === 'textarea',
     }]">
-    <span class="mint-field-icon" slot="icon">
-      <slot name="icon"></slot>
-    </span>
-    <textarea
-      @change="$emit('change', currentValue)"
-      ref="textarea"
-      class="mint-field-core"
-      :placeholder="placeholder"
-      v-if="type === 'textarea'"
-      :rows="rows"
-      :disabled="disabled"
-      :readonly="readonly"
-      v-model="currentValue">
-    </textarea>
-    <input
-      @change="$emit('change', currentValue)"
-      ref="input"
-      class="mint-field-core"
-      :placeholder="placeholder"
-      :number="type === 'number'"
-      v-else
-      :type="type"
-      @focus="active = true"
-      :disabled="disabled"
-      :readonly="readonly"
-      :value="currentValue"
-      @input="handleInput">
-    <div
-      @click="handleClear"
-      class="mint-field-clear"
-      v-if="!disableClear"
-      v-show="currentValue && type !== 'textarea' && active">
-      <i class="mintui mintui-field-error"></i>
-    </div>
-    <span class="mint-field-state" v-if="state" :class="['is-' + state]">
+    <div class="mint-field-wrapper">
+      <span class="mint-field-icon"><slot name="icon"></slot></span>
+      <div class="mint-field-value">
+        <textarea
+            @change="$emit('change', currentValue)"
+            ref="textarea"
+            class="mint-field-core"
+            :placeholder="placeholder"
+            v-if="type === 'textarea'"
+            :rows="rows"
+            :disabled="disabled"
+            :readonly="readonly"
+            v-model="currentValue">
+      </textarea>
+        <input
+            @change="$emit('change', currentValue)"
+            ref="input"
+            class="mint-field-core"
+            :placeholder="placeholder"
+            :number="type === 'number'"
+            v-else
+            :type="type"
+            @focus="active = true"
+            :disabled="disabled"
+            :readonly="readonly"
+            :value="currentValue"
+            @input="handleInput">
+      </div>
+      <div
+          @click="handleClear"
+          class="mint-field-clear"
+          v-if="!disableClear"
+          v-show="currentValue && type !== 'textarea' && active">
+        <i class="mintui mintui-field-error"></i>
+      </div>
+      <span class="mint-field-state" v-if="state" :class="['is-' + state]">
       <i class="mintui" :class="['mintui-field-' + state]"></i>
     </span>
-    <div class="mint-field-other">
-      <slot></slot>
+      <div class="mint-field-other">
+        <slot></slot>
+      </div>
     </div>
-  </x-cell>
+  </div>
 </template>
 
 <script>
-import XCell from 'ym-mint-ui/packages/cell/index.js';
 import Clickoutside from 'ym-mint-ui/src/utils/clickoutside';
 if (process.env.NODE_ENV === 'component') {
   require('ym-mint-ui/packages/cell/style.css');
@@ -106,8 +106,6 @@ export default {
     attr: Object
   },
 
-  components: { XCell },
-
   methods: {
     doCloseActive() {
       this.active = false;
@@ -154,29 +152,20 @@ export default {
   @component-namespace mint {
     @component field {
       display: flex;
-      min-height: 90px;
+      height: 90px;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+
+      @descendent wrapper {
+        padding: 0 30px;
+      }
 
       @when textarea {
         align-items: inherit;
 
-        .mint-cell-value {
+        @descendent value {
           padding: 10px 0;
         }
-      }
-
-      .mint-cell-wrapper {
-        padding: 0 30px;
-      }
-
-      .mint-cell-title {
-        display: none;
-        flex: none;
-      }
-
-      .mint-cell-value {
-        flex: 1;
-        color: inherit;
-        display: flex;
       }
 
       @descendent icon {
