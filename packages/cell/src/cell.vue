@@ -97,7 +97,7 @@ export default {
       background-color: $color-white;
       box-sizing: border-box;
       color: inherit;
-      min-height: 96px;
+      min-height: 100px;
       display: block;
       overflow: hidden;
       position: relative;

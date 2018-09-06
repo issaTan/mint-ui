@@ -1,12 +1,13 @@
 <template>
   <x-cell
     class="mint-field"
-    :title="label"
     v-clickoutside="doCloseActive"
     :class="[{
       'is-textarea': type === 'textarea',
-      'is-nolabel': !label
     }]">
+    <span class="mint-field-icon" slot="icon">
+      <slot name="icon"></slot>
+    </span>
     <textarea
       @change="$emit('change', currentValue)"
       ref="textarea"
@@ -93,7 +94,6 @@ export default {
       default: 'text'
     },
     rows: String,
-    label: String,
     placeholder: String,
     readonly: Boolean,
     disabled: Boolean,
@@ -154,12 +154,15 @@ export default {
   @component-namespace mint {
     @component field {
       display: flex;
+      min-height: 90px;
+      border: 1px solid $border-color;
+      border-radius: 4px;
 
       @when textarea {
         align-items: inherit;
 
         .mint-cell-title {
-          padding: 20px 0;
+          display: none;
         }
 
         .mint-cell-value {
@@ -167,15 +170,18 @@ export default {
         }
       }
 
-      .mint-cell-title {
-        width: 210px;
-        flex: none;
+      .mint-cell-wrapper {
+        padding: 0 30px;
       }
 
       .mint-cell-value {
         flex: 1;
         color: inherit;
         display: flex;
+      }
+
+      @descendent icon {
+        margin-right: 20px;
       }
 
       @descendent core {
@@ -195,10 +201,10 @@ export default {
 
       @descendent state {
         color: inherit;
-        margin-left: 40px;
+        margin-left: 30px;
 
         .mintui {
-          font-size: 40px;
+          font-size: 30px;
         }
 
         @when error {
@@ -220,12 +226,6 @@ export default {
 
       @descendent other {
         position: relative 0 0 * *;
-      }
-
-      @when nolabel {
-        .mint-cell-title {
-          display: none;
-        }
       }
     }
   }
