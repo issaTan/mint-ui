@@ -3,6 +3,7 @@
        v-clickoutside="doCloseActive"
        :class="[{
       'is-textarea': type === 'textarea',
+      'is-active': active,
     }]">
     <div class="mint-field-wrapper">
       <span class="mint-field-icon"><slot name="icon"></slot></span>
@@ -153,16 +154,9 @@ export default {
     @component field {
       display: flex;
       height: 90px;
+      background-color: $color-background;
       border: 1px solid $border-color;
       border-radius: 4px;
-
-      @descendent wrapper {
-        display: flex;
-        flex: 1;
-        background-color: #fff;
-        align-items: center;
-        padding: 0 30px;
-      }
 
       @when textarea {
         align-items: inherit;
@@ -172,7 +166,20 @@ export default {
         }
       }
 
+      @when active {
+        background-color: $color-white;
+      }
+
+      @descendent wrapper {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        padding: 0 30px;
+      }
+
       @descendent icon {
+        color: $color-text-lighter;
+        font-size: 40px;
         flex-shrik: 1;
         margin-right: 20px;
       }
@@ -190,6 +197,7 @@ export default {
         line-height: 1.6;
         font-size: inherit;
         width: 100%;
+        background: inherit;
       }
 
       @descendent clear {

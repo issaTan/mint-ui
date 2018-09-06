@@ -13,8 +13,12 @@
     display: -ms-flexbox;
     display: flex;
     height: 90px;
+    background-color: #f4f4f4;
     border: 1px solid #eee;
     border-radius: 4px;
+}
+.mint-field.is-active {
+    background-color: #fff;
 }
 .mint-field.is-textarea {
     -webkit-box-align: inherit;
@@ -31,13 +35,14 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    background-color: #fff;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     padding: 0 30px;
 }
 .mint-field-icon {
+    color: #999;
+    font-size: 40px;
     flex-shrik: 1;
     margin-right: 20px;
 }
@@ -59,6 +64,7 @@
     line-height: 1.6;
     font-size: inherit;
     width: 100%;
+    background: inherit;
 }
 .mint-field-clear {
     opacity: .2;
