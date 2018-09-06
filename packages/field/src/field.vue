@@ -155,15 +155,9 @@ export default {
     @component field {
       display: flex;
       min-height: 90px;
-      border: 1px solid $border-color;
-      border-radius: 4px;
 
       @when textarea {
         align-items: inherit;
-
-        .mint-cell-title {
-          display: none;
-        }
 
         .mint-cell-value {
           padding: 10px 0;
@@ -172,6 +166,11 @@ export default {
 
       .mint-cell-wrapper {
         padding: 0 30px;
+      }
+
+      .mint-cell-title {
+        display: none;
+        flex: none;
       }
 
       .mint-cell-value {
