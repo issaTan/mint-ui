@@ -17,6 +17,9 @@
     border: 1px solid #eee;
     border-radius: 4px;
 }
+.mint-field:not(last-child) {
+    margin-bottom: 30px;
+}
 .mint-field.is-active {
     background-color: #fff;
 }
