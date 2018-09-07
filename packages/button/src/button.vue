@@ -132,10 +132,10 @@ export default {
         box-shadow: $button-default-box-shadow;
 
         @when plain {
-          border: 1px solid $button-default-plain-color;
+          border: 1px solid $button-default-background-color;
           background-color: transparent;
           box-shadow: none;
-          color: $button-default-plain-color;
+          color: $button-default-background-color;
         }
       }
 
@@ -185,6 +185,12 @@ export default {
 
       @when disabled {
         opacity: .6;
+        color: $button-disabled-color;
+        background-color: $button-disabled-background-color;
+        &.is-plain {
+           border-color: $button-disabled-background-color;
+           color: $button-disabled-background-color;
+        }
       }
     }
   }

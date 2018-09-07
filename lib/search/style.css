@@ -18,7 +18,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #e9e9e9;
+    background-color: #eee;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -43,7 +43,7 @@
 }
 .mint-searchbar-inner .mintui-search {
     font-size: 24px;
-    color: #e9e9e9;
+    color: #eee;
 }
 .mint-searchbar-core {
     -webkit-appearance: none;

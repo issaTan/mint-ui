@@ -38,7 +38,13 @@
     opacity: 1
 }
 .mint-button.is-disabled {
-    opacity: .6
+    opacity: .6;
+    color: #999;
+    background-color: #eee
+}
+.mint-button.is-disabled.is-plain {
+    border-color: #eee;
+    color: #eee
 }
 .mint-button-icon {
     vertical-align: middle;
@@ -56,14 +62,14 @@
 }
 .mint-button--default {
     color: #999;
-    background-color: #e9e9e9;
+    background-color: #eee;
     box-shadow: 0 0 1px #eee
 }
 .mint-button--default.is-plain {
-    border: 1px solid #999;
+    border: 1px solid #eee;
     background-color: transparent;
     box-shadow: none;
-    color: #999
+    color: #eee
 }
 .mint-button--primary {
     color: #fff;

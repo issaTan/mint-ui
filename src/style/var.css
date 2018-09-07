@@ -1,6 +1,6 @@
 $color-primary: #2e9f9e;
 $color-white: #fff;
-$color-grey: #e9e9e9;
+$color-grey: #eee;
 $color-base: #222;
 $color-text-light: #666;
 $color-text-lighter: #999;
@@ -26,6 +26,9 @@ $button-primary-color: $color-white;
 $button-primary-background-color: $color-primary;
 $button-danger-color: $color-white;
 $button-danger-background-color: $error-color;
+$button-disabled-color: $color-text-lighter;
+$button-disabled-background-color: $color-grey;
+$button-disabled-plain-color: $color-text-lighter;
 
 /* Tab Item Component */
 $tab-item-font-size: 32px;
