@@ -132,10 +132,10 @@ export default {
         box-shadow: $button-default-box-shadow;
 
         @when plain {
-          border: 1px solid $button-default-background-color;
+          border: 1px solid $button-default-plain-color;
           background-color: transparent;
           box-shadow: none;
-          color: $button-default-background-color;
+          color: $button-default-plain-color;
         }
       }
 
