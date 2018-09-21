@@ -92,6 +92,9 @@ export default {
         font-size: inherit;
         font-weight: normal;
         flex: 1;
+        height: $header-height;
+        line-height: $header-height;
+        margin: 0;
       }
 
       @when fixed {
