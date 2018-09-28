@@ -41,11 +41,11 @@
       box-shadow:0 8px 12px 0 rgba(34, 34, 34, 0.25);
 
       @descendent header {
-        padding: 30px 0 0;
+        padding: 40px 30px 0;
       }
 
       @descendent content {
-        padding: 20px 40px 30px;
+        padding: 40px 30px;
         border-bottom: 1px solid $border-color;
         min-height: 72px;
         position: relative;
