@@ -35,8 +35,8 @@
         bottom: 0;
         right: 0;
         margin: 0;
-        background-color: #fff;
-        border-left: solid 1px #ddd;
+        background-color: $color-white;
+        border-left: solid 1px $border-color;
         text-align: center;
         max-height: 100%;
         display: flex;
@@ -70,7 +70,7 @@
         line-height: 100px;
         background-color: rgba(0, 0, 0, .7);
         border-radius: 10px;
-        color: #fff;
+        color: $color-white;
         font-size: 44px;
       }
     }

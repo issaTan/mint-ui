@@ -148,21 +148,21 @@
 }
 .mint-button--primary {
     color: #fff;
-    background-color: #2e9f9e
+    background-color: #24b1b2
 }
 .mint-button--primary.is-plain {
-    border: 1px solid #2e9f9e;
+    border: 1px solid #24b1b2;
     background-color: transparent;
-    color: #2e9f9e
+    color: #24b1b2
 }
 .mint-button--danger {
     color: #fff;
-    background-color: #ec3c4b
+    background-color: #fa405e
 }
 .mint-button--danger.is-plain {
-    border: 1px solid #ec3c4b;
+    border: 1px solid #fa405e;
     background-color: transparent;
-    color: #ec3c4b
+    color: #fa405e
 }
 .mint-button--large {
     font-size: 32px;
@@ -424,7 +424,7 @@
     color: #ffc107;
 }
 .mint-field-state.is-error {
-    color: #ec3c4b;
+    color: #fa405e;
 }
 .mint-field-other {
     top: 0;
@@ -465,10 +465,10 @@
     background-color: #ffc107
 }
 .mint-badge.is-error {
-    background-color: #ec3c4b
+    background-color: #fa405e
 }
 .mint-badge.is-primary {
-    background-color: #2e9f9e
+    background-color: #24b1b2
 }
 .mint-badge.is-success {
     background-color: #4caf50
@@ -538,8 +538,8 @@
     display: none;
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #2e9f9e;
-    background-color: #2e9f9e;
+    border-color: #24b1b2;
+    background-color: #24b1b2;
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);
@@ -888,7 +888,7 @@ display: inline-block;
 }
 .mint-navbar .mint-tab-item.is-selected {}
 .mint-navbar .mint-tab-item.is-selected::before {
-    background-color: #2e9f9e;
+    background-color: #24b1b2;
 }
 .mint-navbar.is-fixed {
     top: 0;
@@ -924,7 +924,7 @@ display: inline-block;
     font-size: inherit;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    color: #2e9f9e;
+    color: #24b1b2;
 }
 .mint-tabbar.is-fixed {
     right: 0;
@@ -991,7 +991,7 @@ display: inline-block;
     outline: 0;
 }
 .mint-searchbar-cancel {
-    color: #2e9f9e;
+    color: #24b1b2;
     margin-left: 20px;
     text-decoration: none;
 }
@@ -1043,8 +1043,8 @@ display: inline-block;
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #2e9f9e;
-    border-color: #2e9f9e;
+    background-color: #24b1b2;
+    border-color: #24b1b2;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #fff;
@@ -1117,8 +1117,8 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #2e9f9e;
-    border-color: #2e9f9e;
+    background-color: #24b1b2;
+    border-color: #24b1b2;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;
@@ -1216,8 +1216,8 @@ display: inline-block;
   height: 90px;
   line-height: 90px;
   font-size: 36px;
-  color: #333;
-  background-color: #fff;
+  color: $color-base;
+  background-color: $color-white;
 }
 .mint-actionsheet-listitem:active, .mint-actionsheet-button:active {
   background-color: #f0f0f0;
@@ -1280,7 +1280,7 @@ display: inline-block;
 
 .mint-popup {
   position: fixed;
-  background: #fff;
+  background: $color-white;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
@@ -1382,7 +1382,7 @@ display: inline-block;
     margin: 0 6px;
 }
 .mint-swipe-indicator.is-active {
-    background: #fff;
+    background: $color-white;
 }
 
 /* Cell Component */
@@ -1446,7 +1446,7 @@ display: inline-block;
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: #2e9f9e;
+    background-color: #24b1b2;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -1632,7 +1632,7 @@ display: inline-block;
 .mt-progress-progress {
     position: absolute;
     display: block;
-    background-color: #f28f3a;
+    background-color: $color-primary;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
@@ -1644,7 +1644,7 @@ display: inline-block;
     max-width: 80%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: $color-white;
     box-sizing: border-box;
     text-align: center;
     z-index: 10000;
@@ -1702,7 +1702,7 @@ display: inline-block;
 }
 .mint-indicator-text {
   display: block;
-  color: #fff;
+  color: $color-white;
   text-align: center;
   margin-top: 20px;
   font-size: 32px;
@@ -1731,9 +1731,9 @@ display: inline-block;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
-  background-color: #fff;
+  background-color: $color-white;
   width: 85%;
-  border-radius: 6px;
+  border-radius: 16px;
   font-size: 32px;
   -webkit-user-select: none;
   overflow: hidden;
@@ -1741,13 +1741,14 @@ display: inline-block;
           backface-visibility: hidden;
   -webkit-transition: .2s;
   transition: .2s;
+  box-shadow: 0 8px 12px 0 rgba(34, 34, 34, 0.25);
 }
 .mint-msgbox-header {
   padding: 30px 0 0;
 }
 .mint-msgbox-content {
   padding: 20px 40px 30px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid $border-color;
   min-height: 72px;
   position: relative;
 }
@@ -1782,25 +1783,27 @@ display: inline-block;
   margin-bottom: 0;
   font-size: 32px;
   font-weight: 700;
-  color: #333;
+  color: $color-base;
 }
 .mint-msgbox-message {
-  color: #999;
+  color: $color-base;
   margin: 0;
   text-align: center;
-  line-height: 72px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.75;
 }
 .mint-msgbox-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80px;
-  line-height: 80px;
+  height: 94px;
+  line-height: 94px;
 }
 .mint-msgbox-btn {
   line-height: 70px;
   display: block;
-  background-color: #fff;
+  background-color: $color-white;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1811,21 +1814,21 @@ display: inline-block;
   outline: none;
 }
 .mint-msgbox-btn:active {
-  background-color: #fff;
+  background-color: $color-white;
 }
 .mint-msgbox-cancel {
   width: 50%;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid $border-color;
 }
 .mint-msgbox-cancel:active {
-  color: #000;
+  color: $color-text-light;
 }
 .mint-msgbox-confirm {
-  color: #f28f3a;
+  color: $color-text-light;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
-  color: #f28f3a;
+  color: $color-primary;
 }
 .msgbox-bounce-enter {
   opacity: 0;
@@ -1909,7 +1912,7 @@ display: inline-block;
     text-align: center;
     line-height: 80px;
     font-size: 32px;
-    color: #2e9f9e;
+    color: #24b1b2;
 }
 .mint-datetime-cancel {
     float: left;
@@ -1944,7 +1947,7 @@ display: inline-block;
     right: 0;
     margin: 0;
     background-color: #fff;
-    border-left: solid 1px #ddd;
+    border-left: solid 1px #eee;
     text-align: center;
     max-height: 100%;
     display: -webkit-box;

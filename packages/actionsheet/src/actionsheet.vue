@@ -40,8 +40,8 @@
         height: 90px;
         line-height: 90px;
         font-size: 36px;
-        color: #333;
-        background-color: #fff;
+        color: $color-base;
+        background-color: $color-white;
         &:active {
            background-color: #f0f0f0;
         }

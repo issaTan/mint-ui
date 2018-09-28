@@ -1,4 +1,4 @@
-$color-primary: #2e9f9e;
+$color-primary: #24b1b2;
 $color-white: #fff;
 $color-grey: #eee;
 $color-base: #222;
@@ -7,7 +7,7 @@ $color-text-lighter: #999;
 $color-background: #f4f4f4;
 $border-color: #eee;
 $success-color: #4caf50;
-$error-color: #ec3c4b;
+$error-color: #fa405e;
 $warning-color: #ffc107;
 
 /* Cell Component */

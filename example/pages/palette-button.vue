@@ -1,14 +1,14 @@
 <template>
   <div style="text-align:center;padding-top:200px;">
     <mt-palette-button content="+" @expand="main_log('expand')" @expanded="main_log('expanded')" @collapse="main_log('collapse')"
-      direction="rt" class="pb" :radius="80" ref="target_1" mainButtonStyle="color:#fff;background-color:#f28f3a;"
+      direction="rt" class="pb" :radius="80" ref="target_1" mainButtonStyle="color:#fff;background-color:#24b1b2;"
       style="left:30px;">
       <div class="my-icon-button indexicon icon-popup" @touchstart="sub_log(1)"></div>
       <div class="my-icon-button indexicon icon-popup" @touchstart="sub_log(2)"></div>
       <div class="my-icon-button indexicon icon-popup" @touchstart="sub_log(3)"></div>
     </mt-palette-button>
     <mt-palette-button content="+" @expand="main_log('expand')" @expanded="main_log('expanded')" @collapse="main_log('collapse')"
-      direction="t" class="pb" :radius="80" ref="target_2" mainButtonStyle="color:yellow;background-color:#f28f3a;" :offset="Math.PI / 12"
+      direction="t" class="pb" :radius="80" ref="target_2" mainButtonStyle="color:yellow;background-color:#24b1b2;" :offset="Math.PI / 12"
       style="left:calc(50% - 30px);">
       <div class="my-icon-button indexicon icon-popup" @touchstart="sub_log(1)"></div>
       <div class="my-icon-button indexicon icon-popup" @touchstart="sub_log(2)"></div>
@@ -56,14 +56,14 @@
     width:30px;
     height:30px;
     border-radius:50%;
-    background-color:#f28f3a;
+    background-color:#24b1b2;
     color: #fff;
     line-height:30px;
     text-align:center;
   }
   .mint-main-button{
     color: #000;
-    background-color:#f28f3a;
+    background-color:#24b1b2;
   }
 </style>
  

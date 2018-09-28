@@ -46,7 +46,7 @@
 
         h1 {
           font-size: 20px;
-          color: #f28f3a;
+          color: #24b1b2;
         }
 
         p {

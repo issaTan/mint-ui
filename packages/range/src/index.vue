@@ -51,7 +51,7 @@
       }
 
       @descendent thumb {
-        background-color: #fff;
+        background-color: $color-white;
         position: absolute;
         left: 0;
         top: 0;

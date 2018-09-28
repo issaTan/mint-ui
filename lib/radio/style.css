@@ -33,8 +33,8 @@
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #2e9f9e;
-    border-color: #2e9f9e;
+    background-color: #24b1b2;
+    border-color: #24b1b2;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;

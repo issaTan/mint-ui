@@ -37,8 +37,8 @@
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #2e9f9e;
-    border-color: #2e9f9e;
+    background-color: #24b1b2;
+    border-color: #24b1b2;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #fff;

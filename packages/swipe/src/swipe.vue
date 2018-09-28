@@ -39,7 +39,7 @@
         margin: 0 6px;
 
         @when active {
-          background: #fff;
+          background: $color-white;
         }
       }
     }

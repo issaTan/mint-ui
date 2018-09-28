@@ -28,7 +28,7 @@
 
     @descendent text {
       display: block;
-      color: #fff;
+      color: $color-white;
       text-align: center;
       margin-top: 20px;
       font-size: 32px;

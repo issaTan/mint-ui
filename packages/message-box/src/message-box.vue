@@ -28,14 +28,15 @@
       top: 50%;
       left: 50%;
       transform: translate3d(-50%, -50%, 0);
-      background-color: #fff;
+      background-color: $color-white;
       width: 85%;
-      border-radius: 6px;
+      border-radius: 16px;
       font-size: 32px;
       -webkit-user-select: none;
       overflow: hidden;
       backface-visibility: hidden;
       transition: .2s;
+      box-shadow:0 8px 12px 0 rgba(34, 34, 34, 0.25);
 
       @descendent header {
         padding: 30px 0 0;
@@ -43,7 +44,7 @@
 
       @descendent content {
         padding: 20px 40px 30px;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid $border-color;
         min-height: 72px;
         position: relative;
       }
@@ -79,14 +80,16 @@
         margin-bottom: 0;
         font-size: 32px;
         font-weight: bold;
-        color: #333;
+        color: $color-base;
       }
 
       @descendent message {
-        color: #999;
+        color: $color-base;
         margin: 0;
         text-align: center;
-        line-height: 72px;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.75;
       }
 
       @descendent btns {
@@ -94,14 +97,14 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 80px;
-        line-height: 80px;
+        height: 94px;
+        line-height: 94px;
       }
 
       @descendent btn {
         line-height: 70px;
         display: block;
-        background-color: #fff;
+        background-color: $color-white;
         flex: 1;
         margin: 0;
         border: 0;
@@ -111,23 +114,23 @@
         }
 
         &:active {
-          background-color: #fff;
+          background-color: $color-white;
         }
       }
 
       @descendent cancel {
         width: 50%;
-        border-right: 1px solid #ddd;
+        border-right: 1px solid $border-color;
         &:active {
-          color: #000;
+          color: $color-text-light;
         }
       }
 
       @descendent confirm {
-        color: #f28f3a;
+        color: $color-text-light;
         width: 50%;
         &:active {
-         color: #f28f3a;
+         color: $color-primary;
         }
       }
     }

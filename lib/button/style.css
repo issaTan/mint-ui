@@ -73,21 +73,21 @@
 }
 .mint-button--primary {
     color: #fff;
-    background-color: #2e9f9e
+    background-color: #24b1b2
 }
 .mint-button--primary.is-plain {
-    border: 1px solid #2e9f9e;
+    border: 1px solid #24b1b2;
     background-color: transparent;
-    color: #2e9f9e
+    color: #24b1b2
 }
 .mint-button--danger {
     color: #fff;
-    background-color: #ec3c4b
+    background-color: #fa405e
 }
 .mint-button--danger.is-plain {
-    border: 1px solid #ec3c4b;
+    border: 1px solid #fa405e;
     background-color: transparent;
-    color: #ec3c4b
+    color: #fa405e
 }
 .mint-button--large {
     font-size: 32px;

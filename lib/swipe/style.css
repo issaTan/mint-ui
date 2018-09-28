@@ -39,5 +39,5 @@
     margin: 0 6px;
 }
 .mint-swipe-indicator.is-active {
-    background: #fff;
+    background: $color-white;
 }

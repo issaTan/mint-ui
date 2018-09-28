@@ -3,19 +3,19 @@
     <div class="page-title">Spinner</div>
 
     <mt-cell title="snake">
-      <mt-spinner color="#f28f3a" type="snake"></mt-spinner>
+      <mt-spinner color="#24b1b2" type="snake"></mt-spinner>
     </mt-cell>
 
     <mt-cell title="double-bounce">
-      <mt-spinner color="#f28f3a" type="double-bounce"></mt-spinner>
+      <mt-spinner color="#24b1b2" type="double-bounce"></mt-spinner>
     </mt-cell>
 
     <mt-cell title="triple-bounce">
-      <mt-spinner color="#f28f3a" type="triple-bounce"></mt-spinner>
+      <mt-spinner color="#24b1b2" type="triple-bounce"></mt-spinner>
     </mt-cell>
 
     <mt-cell title="fading-circle">
-      <mt-spinner color="#f28f3a" type="fading-circle"></mt-spinner>
+      <mt-spinner color="#24b1b2" type="fading-circle"></mt-spinner>
     </mt-cell>
   </div>
 </template>

@@ -18,7 +18,7 @@
  *
  * @example
  * <mt-badge color="error">错误</mt-badge>
- * <mt-badge color="#333">30</mt-badge>
+ * <mt-badge color="#222">30</mt-badge>
  */
 export default {
   name: 'mt-badge',
