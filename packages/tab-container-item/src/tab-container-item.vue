@@ -28,7 +28,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
   @component-namespace mint {
     @component tab-container-item {
       flex-shrink: 0;

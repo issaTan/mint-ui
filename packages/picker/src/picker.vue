@@ -8,7 +8,9 @@
   </div>
 </template>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
   .picker {
     overflow: hidden;
   }

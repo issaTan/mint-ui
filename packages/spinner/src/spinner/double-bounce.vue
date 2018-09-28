@@ -19,6 +19,8 @@
 </script>
 
 <style lang="css">
+  @import "../../../src/style/var.css";
+
   @component-namespace mint-spinner {
     @component double-bounce {
       position: relative;

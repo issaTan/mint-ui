@@ -549,7 +549,16 @@
     -webkit-transform: translateX(40px);
             transform: translateX(40px);
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-spinner-snake {
   -webkit-animation: mint-spinner-rotate 0.8s infinite linear;
           animation: mint-spinner-rotate 0.8s infinite linear;
@@ -576,7 +585,16 @@
             transform: rotate(360deg);
 }
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-spinner-double-bounce {
 position: relative;
 }
@@ -615,7 +633,16 @@ left: 0;
             transform: scale(1.0);
 }
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-spinner-triple-bounce {}
 .mint-spinner-triple-bounce-bounce1, .mint-spinner-triple-bounce-bounce2, .mint-spinner-triple-bounce-bounce3 {
 border-radius: 100%;
@@ -651,7 +678,16 @@ display: inline-block;
             transform: scale(1.0);
 }
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-spinner-fading-circle {
     position: relative
 }
@@ -812,13 +848,31 @@ display: inline-block;
     font-size: 32px;
     line-height: 1
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-tab-container-item {
     -ms-flex-negative: 0;
         flex-shrink: 0;
     width: 100%
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-tab-container {
     overflow: hidden;
     position: relative;
@@ -1155,7 +1209,16 @@ display: inline-block;
     -webkit-transform: scale(0);
             transform: scale(0);
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-loadmore {
     overflow: hidden
 }
@@ -1183,7 +1246,16 @@ display: inline-block;
 .mint-loadmore-text {
     vertical-align: middle
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-actionsheet {
   position: fixed;
   background: #e0e0e0;
@@ -1216,8 +1288,8 @@ display: inline-block;
   height: 90px;
   line-height: 90px;
   font-size: 36px;
-  color: $color-base;
-  background-color: $color-white;
+  color: #222;
+  background-color: #fff;
 }
 .mint-actionsheet-listitem:active, .mint-actionsheet-button:active {
   background-color: #f0f0f0;
@@ -1277,10 +1349,19 @@ display: inline-block;
   opacity: 0.5;
   background: #000;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-popup {
   position: fixed;
-  background: $color-white;
+  background: #fff;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
@@ -1341,7 +1422,16 @@ display: inline-block;
 .popup-fade-enter, .popup-fade-leave-active {
   opacity: 0;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-swipe {
     overflow: hidden;
     position: relative;
@@ -1382,7 +1472,7 @@ display: inline-block;
     margin: 0 6px;
 }
 .mint-swipe-indicator.is-active {
-    background: $color-white;
+    background: #fff;
 }
 
 /* Cell Component */
@@ -1456,7 +1546,16 @@ display: inline-block;
 .mt-range--disabled {
     opacity: 0.5
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .picker {
   overflow: hidden;
 }
@@ -1507,7 +1606,16 @@ display: inline-block;
   right: auto;
   top: auto;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .picker-slot {
   font-size: 36px;
   overflow: hidden;
@@ -1593,7 +1701,16 @@ display: inline-block;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mt-progress {
     position: relative;
     display: -webkit-box;
@@ -1632,19 +1749,28 @@ display: inline-block;
 .mt-progress-progress {
     position: absolute;
     display: block;
-    background-color: $color-primary;
+    background-color: #24b1b2;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
     width: 0
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-toast {
     position: fixed;
     max-width: 80%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.7);
-    color: $color-white;
+    color: #fff;
     box-sizing: border-box;
     text-align: center;
     z-index: 10000;
@@ -1682,7 +1808,16 @@ display: inline-block;
 .mint-toast-pop-enter, .mint-toast-pop-leave-active {
     opacity: 0
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-indicator {
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
@@ -1702,7 +1837,7 @@ display: inline-block;
 }
 .mint-indicator-text {
   display: block;
-  color: $color-white;
+  color: #fff;
   text-align: center;
   margin-top: 20px;
   font-size: 32px;
@@ -1724,14 +1859,23 @@ display: inline-block;
 .mint-indicator-enter, .mint-indicator-leave-active {
   opacity: 0;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-msgbox {
   position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
-  background-color: $color-white;
+  background-color: #fff;
   width: 85%;
   border-radius: 16px;
   font-size: 32px;
@@ -1748,7 +1892,7 @@ display: inline-block;
 }
 .mint-msgbox-content {
   padding: 20px 40px 30px;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid #eee;
   min-height: 72px;
   position: relative;
 }
@@ -1783,10 +1927,10 @@ display: inline-block;
   margin-bottom: 0;
   font-size: 32px;
   font-weight: 700;
-  color: $color-base;
+  color: #222;
 }
 .mint-msgbox-message {
-  color: $color-base;
+  color: #222;
   margin: 0;
   text-align: center;
   font-size: 32px;
@@ -1803,7 +1947,7 @@ display: inline-block;
 .mint-msgbox-btn {
   line-height: 70px;
   display: block;
-  background-color: $color-white;
+  background-color: #fff;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1814,21 +1958,21 @@ display: inline-block;
   outline: none;
 }
 .mint-msgbox-btn:active {
-  background-color: $color-white;
+  background-color: #fff;
 }
 .mint-msgbox-cancel {
   width: 50%;
-  border-right: 1px solid $border-color;
+  border-right: 1px solid #eee;
 }
 .mint-msgbox-cancel:active {
-  color: $color-text-light;
+  color: #666;
 }
 .mint-msgbox-confirm {
-  color: $color-text-light;
+  color: #666;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
-  color: $color-primary;
+  color: #24b1b2;
 }
 .msgbox-bounce-enter {
   opacity: 0;
@@ -1998,7 +2142,16 @@ display: inline-block;
     color: #fff;
     font-size: 44px
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-indexsection {
     padding: 0;
     margin: 0
@@ -2006,12 +2159,21 @@ display: inline-block;
 .mint-indexsection-index {
     margin: 0;
     padding: 20px;
-    background-color: #fafafa
+    background-color: #f4f4f4
 }
 .mint-indexsection-index + ul {
     padding: 0
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-palette-button{
   display:inline-block;
   position:relative;

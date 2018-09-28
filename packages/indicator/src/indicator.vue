@@ -10,7 +10,9 @@
   </transition>
 </template>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
 @component-namespace mint {
   @component indicator {
     transition: opacity .2s linear;

@@ -20,6 +20,8 @@
 </script>
 
 <style lang="css">
+  @import "../../../src/style/var.css";
+
   .mint-spinner-snake {
     animation: mint-spinner-rotate 0.8s infinite linear;
     border: 4px solid transparent;

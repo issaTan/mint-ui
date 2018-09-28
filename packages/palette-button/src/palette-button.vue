@@ -110,7 +110,9 @@
   };
 </script>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
   .mint-palette-button{
     display:inline-block;
     position:relative;

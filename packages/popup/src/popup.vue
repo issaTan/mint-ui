@@ -6,7 +6,9 @@
   </transition>
 </template>
 
-<style>
+<style lang="css">
+  @import "../../../src/style/var.css";
+
   @component-namespace mint {
     @component popup {
       position: fixed;

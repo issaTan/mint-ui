@@ -1,4 +1,13 @@
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-indicator {
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
@@ -18,7 +27,7 @@
 }
 .mint-indicator-text {
   display: block;
-  color: $color-white;
+  color: #fff;
   text-align: center;
   margin-top: 20px;
   font-size: 32px;

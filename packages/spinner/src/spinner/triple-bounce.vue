@@ -31,6 +31,8 @@
 </script>
 
 <style lang="css">
+  @import "../../../src/style/var.css";
+
 @component-namespace mint-spinner {
   @component triple-bounce {
     @descendent bounce1, bounce2, bounce3 {

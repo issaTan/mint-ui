@@ -36,6 +36,8 @@
 </script>
 
 <style lang="css">
+  @import "../../../src/style/var.css";
+
   @component-namespace mint-spinner {
     @component fading-circle {
       position: relative;

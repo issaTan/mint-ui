@@ -1,4 +1,13 @@
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-actionsheet {
   position: fixed;
   background: #e0e0e0;
@@ -31,8 +40,8 @@
   height: 90px;
   line-height: 90px;
   font-size: 36px;
-  color: $color-base;
-  background-color: $color-white;
+  color: #222;
+  background-color: #fff;
 }
 .mint-actionsheet-listitem:active, .mint-actionsheet-button:active {
   background-color: #f0f0f0;

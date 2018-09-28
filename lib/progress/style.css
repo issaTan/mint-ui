@@ -1,4 +1,13 @@
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mt-progress {
     position: relative;
     display: -webkit-box;
@@ -37,7 +46,7 @@
 .mt-progress-progress {
     position: absolute;
     display: block;
-    background-color: $color-primary;
+    background-color: #24b1b2;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);

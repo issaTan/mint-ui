@@ -1,11 +1,20 @@
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-msgbox {
   position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
-  background-color: $color-white;
+  background-color: #fff;
   width: 85%;
   border-radius: 16px;
   font-size: 32px;
@@ -22,7 +31,7 @@
 }
 .mint-msgbox-content {
   padding: 20px 40px 30px;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid #eee;
   min-height: 72px;
   position: relative;
 }
@@ -57,10 +66,10 @@
   margin-bottom: 0;
   font-size: 32px;
   font-weight: 700;
-  color: $color-base;
+  color: #222;
 }
 .mint-msgbox-message {
-  color: $color-base;
+  color: #222;
   margin: 0;
   text-align: center;
   font-size: 32px;
@@ -77,7 +86,7 @@
 .mint-msgbox-btn {
   line-height: 70px;
   display: block;
-  background-color: $color-white;
+  background-color: #fff;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -88,21 +97,21 @@
   outline: none;
 }
 .mint-msgbox-btn:active {
-  background-color: $color-white;
+  background-color: #fff;
 }
 .mint-msgbox-cancel {
   width: 50%;
-  border-right: 1px solid $border-color;
+  border-right: 1px solid #eee;
 }
 .mint-msgbox-cancel:active {
-  color: $color-text-light;
+  color: #666;
 }
 .mint-msgbox-confirm {
-  color: $color-text-light;
+  color: #666;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
-  color: $color-primary;
+  color: #24b1b2;
 }
 .msgbox-bounce-enter {
   opacity: 0;

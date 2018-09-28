@@ -49,10 +49,19 @@
   opacity: 0.5;
   background: #000;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* Range Component */
+/* z-index */
 .mint-popup {
   position: fixed;
-  background: $color-white;
+  background: #fff;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
