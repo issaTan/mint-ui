@@ -47,7 +47,7 @@
       @descendent content {
         padding: 40px 30px;
         border-bottom: 1px solid $border-color;
-        min-height: 72px;
+        min-height: 68px;
         position: relative;
       }
 
@@ -123,6 +123,7 @@
       @descendent cancel {
         width: 50%;
         border-right: 1px solid $border-color;
+        color: $color-text-light;
         &:active {
           color: $color-text-light;
         }
@@ -131,6 +132,7 @@
       @descendent confirm {
         color: $color-text-light;
         width: 50%;
+        color: $color-primary;
         &:active {
          color: $color-primary;
         }

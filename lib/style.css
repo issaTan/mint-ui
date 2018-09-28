@@ -1893,7 +1893,7 @@ display: inline-block;
 .mint-msgbox-content {
   padding: 40px 30px;
   border-bottom: 1px solid #eee;
-  min-height: 72px;
+  min-height: 68px;
   position: relative;
 }
 .mint-msgbox-input {
@@ -1963,6 +1963,7 @@ display: inline-block;
 .mint-msgbox-cancel {
   width: 50%;
   border-right: 1px solid #eee;
+  color: #666;
 }
 .mint-msgbox-cancel:active {
   color: #666;
@@ -1970,6 +1971,7 @@ display: inline-block;
 .mint-msgbox-confirm {
   color: #666;
   width: 50%;
+  color: #24b1b2;
 }
 .mint-msgbox-confirm:active {
   color: #24b1b2;
