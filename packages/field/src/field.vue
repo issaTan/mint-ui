@@ -153,13 +153,10 @@ export default {
   @component-namespace mint {
     @component field {
       display: flex;
-      height: 90px;
-      background-color: $color-background;
-      border: 1px solid $border-color;
-      border-radius: 4px;
-      &:not:(last-child) {
-        margin-bottom: 30px;
-      }
+      height: 126px;
+      background-color: $color-white;
+      border-bottom: 1px solid $border-color;
+      font-size: 30px;
 
       @when textarea {
         align-items: inherit;
@@ -177,7 +174,6 @@ export default {
         display: flex;
         flex: 1;
         align-items: center;
-        padding: 0 30px;
       }
 
       @descendent icon {
