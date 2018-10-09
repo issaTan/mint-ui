@@ -113,13 +113,7 @@
     opacity: 1
 }
 .mint-button.is-disabled {
-    opacity: .6;
-    color: #999;
-    background-color: #eee
-}
-.mint-button.is-disabled.is-plain {
-    border-color: #eee;
-    color: #eee
+    opacity: .5
 }
 .mint-button-icon {
     vertical-align: middle;
