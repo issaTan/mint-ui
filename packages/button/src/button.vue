@@ -164,7 +164,7 @@ export default {
       @modifier large {
         font-size: 32px;
         display: block;
-        height: 90px;
+        height: 100px;
         width: 100%;
       }
 
