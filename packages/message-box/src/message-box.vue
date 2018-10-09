@@ -130,9 +130,8 @@
       }
 
       @descendent confirm {
-        color: $color-text-light;
         width: 50%;
-        color: $color-primary;
+        color: $color-text-primary;
         &:active {
          color: $color-primary;
         }

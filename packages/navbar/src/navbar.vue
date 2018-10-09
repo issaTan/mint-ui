@@ -63,10 +63,10 @@ export default {
         }
 
         &::before {
-          width: 80px;
-          height: 4px;
+          width: 60px;
+          height: 6px;
           background-color: $color-white;
-          border-radius: 4px;
+          border-radius: 3px;
           position: absolute;
           bottom: 0;
           left: 50%;
@@ -90,8 +90,9 @@ export default {
         }
 
         &.is-selected {
+          color: $color-text-primary;
           &::before {
-            background-color: $color-primary;
+            background-color: $color-text-primary;
           }
         }
       }

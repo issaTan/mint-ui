@@ -26,10 +26,10 @@
     display: block;
 }
 .mint-navbar .mint-tab-item::before {
-    width: 80px;
-    height: 4px;
+    width: 60px;
+    height: 6px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 3px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -50,9 +50,11 @@
 .mint-navbar .mint-tab-item:last-child::after {
     width: 0;
 }
-.mint-navbar .mint-tab-item.is-selected {}
+.mint-navbar .mint-tab-item.is-selected {
+    color: #13b9bf;
+}
 .mint-navbar .mint-tab-item.is-selected::before {
-    background-color: #24b1b2;
+    background-color: #13b9bf;
 }
 .mint-navbar.is-fixed {
     top: 0;

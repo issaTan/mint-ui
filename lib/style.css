@@ -916,10 +916,10 @@ display: inline-block;
     display: block;
 }
 .mint-navbar .mint-tab-item::before {
-    width: 80px;
-    height: 4px;
+    width: 60px;
+    height: 6px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 3px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -940,9 +940,11 @@ display: inline-block;
 .mint-navbar .mint-tab-item:last-child::after {
     width: 0;
 }
-.mint-navbar .mint-tab-item.is-selected {}
+.mint-navbar .mint-tab-item.is-selected {
+    color: #13b9bf;
+}
 .mint-navbar .mint-tab-item.is-selected::before {
-    background-color: #24b1b2;
+    background-color: #13b9bf;
 }
 .mint-navbar.is-fixed {
     top: 0;
@@ -1045,7 +1047,7 @@ display: inline-block;
     outline: 0;
 }
 .mint-searchbar-cancel {
-    color: #24b1b2;
+    color: #13b9bf;
     margin-left: 20px;
     text-decoration: none;
 }
@@ -1969,9 +1971,8 @@ display: inline-block;
   color: #666;
 }
 .mint-msgbox-confirm {
-  color: #666;
   width: 50%;
-  color: #24b1b2;
+  color: #13b9bf;
 }
 .mint-msgbox-confirm:active {
   color: #24b1b2;
@@ -2058,7 +2059,7 @@ display: inline-block;
     text-align: center;
     line-height: 80px;
     font-size: 32px;
-    color: #24b1b2;
+    color: #13b9bf;
 }
 .mint-datetime-cancel {
     float: left;
