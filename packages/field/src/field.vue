@@ -6,7 +6,7 @@
       'is-active': active || currentValue !== '',
     }]">
     <div class="mint-field-wrapper">
-      <span class="mint-field-icon"><slot name="icon"></slot></span>
+      <slot class="mint-field-icon" name="icon"></slot>
       <div class="mint-field-value">
         <textarea
             @change="$emit('change', currentValue)"
@@ -167,7 +167,7 @@ export default {
       }
 
       @when active {
-        background-color: $color-white;
+        border-color: $color-primary;
       }
 
       @descendent wrapper {

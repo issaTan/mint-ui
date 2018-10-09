@@ -18,7 +18,7 @@
     font-size: 30px;
 }
 .mint-field.is-active {
-    background-color: #fff;
+    border-color: #24b1b2;
 }
 .mint-field.is-textarea {
     -webkit-box-align: inherit;
