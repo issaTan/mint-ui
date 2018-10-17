@@ -49,7 +49,7 @@
     line-height: 1;
     min-height: inherit;
     overflow: hidden;
-    padding: 0 20px;
+    padding: 0 30px;
     width: 100%;
 }
 .mint-cell-mask {}
@@ -107,16 +107,7 @@
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
 }
-.mint-cell-allow-right::after {
-    border: solid 4px #eee;
-    border-bottom-width: 0;
-    border-left-width: 0;
-    content: " " !important;
-    top:50%;
-    right:40px;
-    position: absolute;
-    width:10px;
-    height:10px;
-    -webkit-transform: translateY(-50%) rotate(45deg);
-            transform: translateY(-50%) rotate(45deg);
+.mint-cell-right-icon {
+    width: 36px;
+    height: 36px;
 }

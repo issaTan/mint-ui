@@ -60,8 +60,7 @@ export default {
           'default',
           'danger',
           'primary',
-          'text',
-          'disabled'
+          'text'
         ].indexOf(value) > -1;
       }
     },
@@ -70,8 +69,11 @@ export default {
       default: 'normal',
       validator(value) {
         return [
+          'extra-extra-small',
+          'extra-small',
           'small',
           'normal',
+          'medium',
           'large'
         ].indexOf(value) > -1;
       }
@@ -161,26 +163,61 @@ export default {
         }
       }
 
+      @modifier extra-extra-small {
+        display: inline-block;
+        font-size: 24px;
+        padding: 0 24px;
+        height: 40px;
+        @descendent text {
+          vertical-align: middle;
+        }
+      }
+
+      @modifier extra-small {
+        display: inline-block;
+        font-size: 28px;
+        padding: 0 24px;
+        height: 50px;
+        @descendent text {
+          vertical-align: middle;
+        }
+      }
+
+      @modifier small {
+        display: inline-block;
+        font-size: 28px;
+        padding: 0 24px;
+        height: 60px;
+        @descendent text {
+          vertical-align: middle;
+        }
+      }
+
+      @modifier normal {
+        display: inline-block;
+        font-size: 28px;
+        padding: 0 42px;
+        height: 70px;
+        @descendent text {
+          vertical-align: middle;
+        }
+      }
+
+      @modifier medium {
+        display: inline-block;
+        font-size: 32px;
+        height: 90px;
+        width: 100%;
+        @descendent text {
+          vertical-align: middle;
+        }
+      }
+
       @modifier large {
         font-size: 32px;
         display: block;
         height: 100px;
         width: 100%;
-      }
-
-      @modifier normal {
-        display: inline-block;
-        padding: 0 24px;
-      }
-
-      @modifier small {
-        display: inline-block;
-        font-size: 24px;
-        padding: 0 30px;
-        height: 44px;
-        @descendent text {
-          vertical-align: middle;
-        }
       }
 
       @when disabled {

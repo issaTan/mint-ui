@@ -83,22 +83,54 @@
     background-color: transparent;
     color: #fa405e
 }
+.mint-button--extra-extra-small {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 24px;
+    height: 40px
+}
+.mint-button--extra-extra-small-text {
+    vertical-align: middle
+}
+.mint-button--extra-small {
+    display: inline-block;
+    font-size: 28px;
+    padding: 0 24px;
+    height: 50px
+}
+.mint-button--extra-small-text {
+    vertical-align: middle
+}
+.mint-button--small {
+    display: inline-block;
+    font-size: 28px;
+    padding: 0 24px;
+    height: 60px
+}
+.mint-button--small-text {
+    vertical-align: middle
+}
+.mint-button--normal {
+    display: inline-block;
+    font-size: 28px;
+    padding: 0 42px;
+    height: 70px
+}
+.mint-button--normal-text {
+    vertical-align: middle
+}
+.mint-button--medium {
+    display: inline-block;
+    font-size: 32px;
+    height: 90px;
+    width: 100%
+}
+.mint-button--medium-text {
+    vertical-align: middle
+}
 .mint-button--large {
     font-size: 32px;
     display: block;
     height: 100px;
     width: 100%
-}
-.mint-button--normal {
-    display: inline-block;
-    padding: 0 24px
-}
-.mint-button--small {
-    display: inline-block;
-    font-size: 24px;
-    padding: 0 30px;
-    height: 44px
-}
-.mint-button--small-text {
-    vertical-align: middle
 }

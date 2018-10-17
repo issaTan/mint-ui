@@ -3,7 +3,7 @@
        v-clickoutside="doCloseActive"
        :class="[{
       'is-textarea': type === 'textarea',
-      'is-active': active || currentValue !== '',
+      'is-active': active,
     }]">
     <div class="mint-field-wrapper">
       <slot class="mint-field-icon" name="icon"></slot>
