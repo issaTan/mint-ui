@@ -144,7 +144,7 @@
 
     computed: {
       transform() {
-        return this.translate === 0 ? null : 'translate3d(0, ' + this.translate + 'NaNpx, 0)';
+        return this.translate === 0 ? null : 'translate3d(0, ' + this.translate + 'px, 0)';
       }
     },
 

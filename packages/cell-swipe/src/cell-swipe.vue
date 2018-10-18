@@ -123,7 +123,7 @@ export default {
     },
 
     translate3d(offset) {
-      return `translate3d(${offset}NaNpx, 0, 0)`;
+      return `translate3d(${offset}px, 0, 0)`;
     },
 
     setAnimations(val) {

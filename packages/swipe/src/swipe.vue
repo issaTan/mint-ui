@@ -178,10 +178,10 @@
           }
 
           _offset = ALPHA * _offset + (1.0 - ALPHA) * offset;
-          element.style.webkitTransform = `translate3d(${_offset}NaNpx, 0, 0)`;
+          element.style.webkitTransform = `translate3d(${_offset}px, 0, 0)`;
 
           if (nextElement) {
-            nextElement.style.webkitTransform = `translate3d(${_offset - offset}NaNpx, 0, 0)`;
+            nextElement.style.webkitTransform = `translate3d(${_offset - offset}px, 0, 0)`;
           }
 
           raf = requestAnimationFrame(animationLoop.bind(this));
@@ -195,7 +195,7 @@
           this.animating = true;
           element.style.webkitTransition = '-webkit-transform ' + speed + 'ms ease-in-out';
           setTimeout(() => {
-            element.style.webkitTransform = `translate3d(${offset}NaNpx, 0, 0)`;
+            element.style.webkitTransform = `translate3d(${offset}px, 0, 0)`;
           }, 50);
 
           var called = false;
@@ -215,7 +215,7 @@
           setTimeout(transitionEndCallback, speed + 100); // webkitTransitionEnd maybe not fire on lower version android.
         } else {
           element.style.webkitTransition = '';
-          element.style.webkitTransform = `translate3d(${offset}NaNpx, 0, 0)`;
+          element.style.webkitTransform = `translate3d(${offset}px, 0, 0)`;
         }
       },
 

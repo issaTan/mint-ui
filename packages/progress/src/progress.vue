@@ -2,8 +2,8 @@
   <div class="mt-progress">
     <slot name="start"></slot>
     <div class="mt-progress-content">
-      <div class="mt-progress-runway" :style="{ height: barHeight + 'NaNpx' }"></div>
-      <div class="mt-progress-progress" :style="{ width: value + '%', height: barHeight + 'NaNpx' }"></div>
+      <div class="mt-progress-runway" :style="{ height: barHeight + 'px' }"></div>
+      <div class="mt-progress-progress" :style="{ width: value + '%', height: barHeight + 'px' }"></div>
     </div>
     <slot name="end"></slot>
   </div>

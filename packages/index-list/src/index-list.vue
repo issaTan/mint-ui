@@ -1,6 +1,6 @@
 <template>
   <div class="mint-indexlist">
-    <ul class="mint-indexlist-content" ref="content" :style="{ 'height': currentHeight + 'NaNpx', 'margin-right': navWidth + 'NaNpx'}">
+    <ul class="mint-indexlist-content" ref="content" :style="{ 'height': currentHeight + 'px', 'margin-right': navWidth + 'px'}">
       <slot></slot>
     </ul>
     

@@ -88,7 +88,7 @@
         var arc = (Math.PI - this.offset * 2) / (this.slotChildren.length - 1) * i + this.offset + direction_arc;
         var x = (Math.cos(arc) * this.radius).toFixed(2);
         var y = (Math.sin(arc) * this.radius).toFixed(2);
-        var item_css = '.expand .palette-button-' + this._uid + '-sub-' + i + '{transform:translate(' + x + 'NaNpx,' + y + 'NaNpx) rotate(720deg);transition-delay:' + 0.03 * i + 's}';
+        var item_css = '.expand .palette-button-' + this._uid + '-sub-' + i + '{transform:translate(' + x + 'px,' + y + 'px) rotate(720deg);transition-delay:' + 0.03 * i + 's}';
         css += item_css;
 
         this.slotChildren[i].elm.className += (' palette-button-' + this._uid + '-sub-' + i);
