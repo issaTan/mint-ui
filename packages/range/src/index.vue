@@ -4,7 +4,9 @@
     <div class="mt-range-content" ref="content" @click="handleClick">
       <div class="mt-range-runway" :style="{ 'border-top-width': barHeight + 'px' }"></div>
       <div class="mt-range-progress" :style="{ width: progress + '%', height: barHeight + 'px' }"></div>
-      <div class="mt-range-thumb" ref="thumb" :style="{ left: progress + '%' }"></div>
+      <div class="mt-range-thumb" ref="thumb" :style="{ left: progress + '%' }">
+        <slot name="thumb"></slot>
+      </div>
     </div>
     <slot name="end"></slot>
   </div>
