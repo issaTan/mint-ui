@@ -193,8 +193,8 @@ export default {
       }
 
       @descendent right-icon {
-        width: 36px;
-        height: 36px;
+        width: 22px;
+        height: 22px;
       }
     }
   }
