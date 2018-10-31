@@ -12,7 +12,7 @@ $error-color: #fa405e;
 $warning-color: #ffc107;
 
 /* Cell Component */
-$cell-value-color: #999;
+$cell-value-color: $color-base;
 
 /* Header Component */
 $header-height: 80px;

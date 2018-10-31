@@ -165,6 +165,7 @@ export default {
 
       @descendent title {
         flex: 1;
+        color: $color-text-light;
       }
 
       @descendent value {
@@ -173,7 +174,7 @@ export default {
         align-items: center;
 
         @when link {
-          margin-right: 48px;
+          margin-right: 20px;
         }
       }
 

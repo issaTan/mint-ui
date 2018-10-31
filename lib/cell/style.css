@@ -79,9 +79,10 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    color: #666;
 }
 .mint-cell-value {
-    color: #999;
+    color: #222;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -90,7 +91,7 @@
             align-items: center;
 }
 .mint-cell-value.is-link {
-    margin-right:48px;
+    margin-right:20px;
 }
 .mint-cell-left {
     position: absolute;
