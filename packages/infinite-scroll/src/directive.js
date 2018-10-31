@@ -123,7 +123,7 @@ var doBind = function() {
   directive.distance = distance;
 
   var immediateCheckExpr = element.getAttribute('infinite-scroll-immediate-check');
-  var immediateCheck = true;
+  var immediateCheck = false;
   if (immediateCheckExpr) {
     immediateCheck = Boolean(directive.vm[immediateCheckExpr]);
   }
