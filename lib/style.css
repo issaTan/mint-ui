@@ -844,8 +844,8 @@ display: inline-block;
     text-decoration: none
 }
 .mint-tab-item-icon {
-    width: 48px;
-    height: 48px;
+    width: 54px;
+    height: 54px;
     margin: 0 auto 10px
 }
 .mint-tab-item-icon:empty {
