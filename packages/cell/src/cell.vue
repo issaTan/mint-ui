@@ -174,7 +174,7 @@ export default {
         align-items: center;
 
         @when link {
-          margin-right: 20px;
+          margin-right: 4px;
         }
       }
 
@@ -194,8 +194,7 @@ export default {
       }
 
       @descendent right-icon {
-        width: 22px;
-        height: 22px;
+        font-size: 26px;
       }
     }
   }

@@ -91,7 +91,7 @@
             align-items: center;
 }
 .mint-cell-value.is-link {
-    margin-right:20px;
+    margin-right:4px;
 }
 .mint-cell-left {
     position: absolute;
@@ -109,6 +109,5 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-right-icon {
-    width: 22px;
-    height: 22px;
+    font-size: 26px;
 }
