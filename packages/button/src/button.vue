@@ -4,7 +4,8 @@
     class="mint-button"
     :class="['mint-button--' + type, 'mint-button--' + size, {
       'is-disabled': disabled,
-      'is-plain': plain
+      'is-plain': plain,
+      'is-round': round,
     }]"
     @click="handleClick"
     :disabled="disabled">
@@ -52,6 +53,7 @@ export default {
     disabled: Boolean,
     nativeType: String,
     plain: Boolean,
+    round: Boolean,
     type: {
       type: String,
       default: 'default',
@@ -171,6 +173,9 @@ export default {
         @descendent text {
           vertical-align: middle;
         }
+        @when round {
+          border-radius: 20px;
+        }
       }
 
       @modifier extra-small {
@@ -180,6 +185,9 @@ export default {
         height: 50px;
         @descendent text {
           vertical-align: middle;
+        }
+        @when round {
+          border-radius: 25px;
         }
       }
 
@@ -191,6 +199,9 @@ export default {
         @descendent text {
           vertical-align: middle;
         }
+        @when round {
+          border-radius: 30px;
+        }
       }
 
       @modifier normal {
@@ -200,6 +211,9 @@ export default {
         height: 70px;
         @descendent text {
           vertical-align: middle;
+        }
+        @when round {
+          border-radius: 35px;
         }
       }
 
@@ -211,6 +225,9 @@ export default {
         @descendent text {
           vertical-align: middle;
         }
+        @when round {
+          border-radius: 45px;
+        }
       }
 
       @modifier large {
@@ -218,10 +235,17 @@ export default {
         display: block;
         height: 100px;
         width: 100%;
+        @when round {
+          border-radius: 50px;
+        }
       }
 
       @when disabled {
         opacity: .5;
+      }
+
+      @when round {
+        border-radius: 30px;
       }
     }
   }

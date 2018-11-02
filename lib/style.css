@@ -112,6 +112,9 @@
 .mint-button:not(.is-disabled):active::after {
     opacity: 1
 }
+.mint-button.is-round {
+    border-radius: 30px
+}
 .mint-button.is-disabled {
     opacity: .5
 }
@@ -164,6 +167,9 @@
     padding: 0 24px;
     height: 40px
 }
+.mint-button--extra-extra-small.is-round {
+    border-radius: 20px
+}
 .mint-button--extra-extra-small-text {
     vertical-align: middle
 }
@@ -172,6 +178,9 @@
     font-size: 28px;
     padding: 0 24px;
     height: 50px
+}
+.mint-button--extra-small.is-round {
+    border-radius: 25px
 }
 .mint-button--extra-small-text {
     vertical-align: middle
@@ -182,6 +191,9 @@
     padding: 0 24px;
     height: 60px
 }
+.mint-button--small.is-round {
+    border-radius: 30px
+}
 .mint-button--small-text {
     vertical-align: middle
 }
@@ -190,6 +202,9 @@
     font-size: 28px;
     padding: 0 42px;
     height: 70px
+}
+.mint-button--normal.is-round {
+    border-radius: 35px
 }
 .mint-button--normal-text {
     vertical-align: middle
@@ -200,6 +215,9 @@
     height: 90px;
     width: 100%
 }
+.mint-button--medium.is-round {
+    border-radius: 45px
+}
 .mint-button--medium-text {
     vertical-align: middle
 }
@@ -208,6 +226,9 @@
     display: block;
     height: 100px;
     width: 100%
+}
+.mint-button--large.is-round {
+    border-radius: 50px
 }
 /* Cell Component */
 /* Header Component */
