@@ -74,9 +74,6 @@
         border-radius: 3px;
       }
 
-      @modifier disabled {
-        opacity: 0.5;
-      }
     }
   }
 </style>
