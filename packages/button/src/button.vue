@@ -136,7 +136,7 @@ export default {
         box-shadow: $button-default-box-shadow;
 
         @when plain {
-          border: 1px solid $button-default-plain-color;
+          border: 1px solid $button-default-plain-border-color;
           background-color: transparent;
           box-shadow: none;
           color: $button-default-plain-color;

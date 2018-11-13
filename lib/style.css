@@ -133,15 +133,15 @@
     height: auto
 }
 .mint-button--default {
-    color: #999;
-    background-color: #eee;
+    color: #666;
+    background-color: #ccc;
     box-shadow: 0 0 1px #eee
 }
 .mint-button--default.is-plain {
-    border: 1px solid #999;
+    border: 1px solid #ccc;
     background-color: transparent;
     box-shadow: none;
-    color: #999
+    color: #666
 }
 .mint-button--primary {
     color: #fff;
@@ -1578,9 +1578,6 @@ display: inline-block;
             transform: translateY(-50%);
     width: 0;
     border-radius: 3px
-}
-.mt-range--disabled {
-    opacity: 0.5
 }
 /* Cell Component */
 /* Header Component */

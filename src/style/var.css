@@ -7,6 +7,7 @@ $color-text-light: #666;
 $color-text-lighter: #999;
 $color-background: #f4f4f4;
 $border-color: #eee;
+$border-color-dark: #ccc;
 $success-color: #4caf50;
 $error-color: #fa405e;
 $warning-color: #ffc107;
@@ -19,9 +20,10 @@ $header-height: 80px;
 $header-background-color: $color-white;
 
 /* Button Component */
-$button-default-color: $color-text-lighter;
-$button-default-background-color: $color-grey;
-$button-default-plain-color: $color-text-lighter;
+$button-default-color: $color-text-light;
+$button-default-background-color: $border-color-dark;
+$button-default-plain-color: $color-text-light;
+$button-default-plain-border-color: $border-color-dark;
 $button-default-box-shadow: 0 0 1px $border-color;
 $button-primary-color: $color-white;
 $button-primary-background-color: $color-primary;
