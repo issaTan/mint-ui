@@ -72,7 +72,7 @@ export default {
       }
 
       @descendent button {
-        flex: .5;
+        flex: .2;
 
         > a {
           color: inherit;

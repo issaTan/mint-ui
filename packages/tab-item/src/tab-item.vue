@@ -1,6 +1,6 @@
 <template>
   <a class="mint-tab-item"
-    @click="$parent.$emit('input', id)"
+    @click="handleClick(id)"
     :class="{ 'is-selected': $parent.value === id }">
     <div class="mint-tab-item-icon"><slot name="icon"></slot></div>
     <div class="mint-tab-item-label"><slot></slot></div>
@@ -25,7 +25,19 @@
 export default {
   name: 'mt-tab-item',
 
-  props: ['id']
+  props: ['id'],
+
+  methods: {
+    handleClick(id) {
+      this.$parent.$emit('input', id);
+      if (this.$Lazyload != null) {
+        this.$Lazyload.lazyLoadHandler();
+        this.$nextTick(() => {
+          this.$Lazyload.lazyLoadHandler();
+        });
+      }
+    }
+  }
 };
 </script>
 
