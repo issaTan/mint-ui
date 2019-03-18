@@ -2,6 +2,7 @@ import Vue from 'vue';
 
 const ToastConstructor = Vue.extend(require('./toast.vue'));
 let toastPool = [];
+let isClosed = true;
 
 let getAnInstance = () => {
   if (toastPool.length > 0) {
@@ -30,10 +31,13 @@ ToastConstructor.prototype.close = function() {
   this.visible = false;
   this.$el.addEventListener('transitionend', removeDom);
   this.closed = true;
+  isClosed = true;
   returnAnInstance(this);
 };
 
 let Toast = (options = {}) => {
+  if (!isClosed) return;
+  isClosed = false;
   let duration = options.duration || 3000;
 
   let instance = getAnInstance();
