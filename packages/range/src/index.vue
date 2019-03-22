@@ -175,7 +175,8 @@
         const content = this.$refs.content;
         const contentBox = content.getBoundingClientRect();
         const clickLength = $event.clientX - contentBox.left;
-        this.$emit('click', clickLength / contentBox.width);
+        const percentage = Math.min(1, clickLength / contentBox.width);
+        this.$emit('click', percentage);
       }
     }
   };
