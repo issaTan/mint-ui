@@ -52,6 +52,7 @@ export default {
       }
 
       .mint-tab-item {
+        color: color-text-light;
         padding: 30px 0;
         font-size: 32px;
         position: relative;
@@ -90,6 +91,7 @@ export default {
         }
 
         &.is-selected {
+          font-weight: bold;
           color: $color-text-primary;
           &::before {
             background-color: $color-text-primary;

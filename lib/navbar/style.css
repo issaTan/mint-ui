@@ -16,6 +16,7 @@
     text-align: center;
 }
 .mint-navbar .mint-tab-item {
+    color: color-text-light;
     padding: 30px 0;
     font-size: 32px;
     position: relative;
@@ -51,6 +52,7 @@
     width: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
+    font-weight: 700;
     color: #13b9bf;
 }
 .mint-navbar .mint-tab-item.is-selected::before {
