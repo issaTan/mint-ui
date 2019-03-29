@@ -62,19 +62,19 @@ export default {
       }
 
       @when size-normal {
-        border-radius: 24px;
+        border-radius: 12px;
         font-size: 30px;
         padding: 4px 16px;
       }
 
       @when size-small {
-        border-radius: 16px;
+        border-radius: 8px;
         font-size: 24px;
         padding: 4px 12px;
       }
 
       @when size-large {
-        border-radius: 28px;
+        border-radius: 14px;
         font-size: 36px;
         padding: 4px 20px;
       }

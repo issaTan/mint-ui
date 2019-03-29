@@ -20,7 +20,7 @@
     @descendent wrapper {
       position: fixed 50% * * 50%;
       transform: translate(-50%, -50%);
-      border-radius: 10px;
+      border-radius: 5px;
       background: rgba(0, 0, 0, 0.7);
       color: white;
       box-sizing: border-box;

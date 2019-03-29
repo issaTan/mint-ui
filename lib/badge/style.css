@@ -14,17 +14,17 @@
     display: inline-block
 }
 .mint-badge.is-size-large {
-    border-radius: 28px;
+    border-radius: 14px;
     font-size: 36px;
     padding: 4px 20px
 }
 .mint-badge.is-size-small {
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 4px 12px
 }
 .mint-badge.is-size-normal {
-    border-radius: 24px;
+    border-radius: 12px;
     font-size: 30px;
     padding: 4px 16px
 }

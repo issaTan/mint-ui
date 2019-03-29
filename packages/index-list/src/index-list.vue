@@ -69,7 +69,7 @@
         text-align: center;
         line-height: 100px;
         background-color: rgba(0, 0, 0, .7);
-        border-radius: 10px;
+        border-radius: 5px;
         color: $color-white;
         font-size: 44px;
       }

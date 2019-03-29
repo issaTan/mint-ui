@@ -32,7 +32,7 @@
       transform: translate3d(-50%, -50%, 0);
       background-color: $color-white;
       width: 85%;
-      border-radius: 16px;
+      border-radius: 8px;
       font-size: 32px;
       -webkit-user-select: none;
       overflow: hidden;
@@ -55,7 +55,7 @@
         padding-top: 30px;
         & input {
           border: 1px solid #dedede;
-          border-radius: 10px;
+          border-radius: 5px;
           padding: 8px 10px;
           width: 100%;
           appearance: none;

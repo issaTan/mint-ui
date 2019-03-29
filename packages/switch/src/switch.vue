@@ -67,7 +67,7 @@ export default {
         position: relative;
         size: 104px 64px;
         border: 1px solid $border-color;
-        border-radius: 32px;
+        border-radius: 16px;
         box-sizing: border-box;
         background: $border-color;
 
@@ -75,7 +75,7 @@ export default {
           content: " " !important;
           position: absolute 0 * * 0;
           transition:transform .3s;
-          border-radius: 30px;
+          border-radius: 15px;
         }
 
         &::after {
