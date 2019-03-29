@@ -1,6 +1,6 @@
 <template>
   <transition name="mint-toast-pop">
-    <div class="mint-toast" v-show="visible" :class="customClass" :style="{ 'padding': iconClass === '' ? '5px' : '10px' }">
+    <div class="mint-toast" v-show="visible" :class="customClass" :style="{ 'padding': iconClass === '' ? '5px 12px' : '10px' }">
       <i class="mint-toast-icon" :class="iconClass" v-if="iconClass !== ''"></i>
       <span class="mint-toast-text" :style="{ 'padding-top': iconClass === '' ? '0' : '10px' }">{{ message }}</span>
     </div>
@@ -14,7 +14,7 @@
     @component toast {
       position: fixed;
       max-width: 80%;
-      border-radius: 5px;
+      border-radius: 15px;
       background: rgba(0, 0, 0, 0.7);
       color: $color-white;
       box-sizing: border-box;

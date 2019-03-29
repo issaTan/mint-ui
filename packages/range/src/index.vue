@@ -71,7 +71,8 @@
         top: 50%;
         transform: translateY(-50%);
         width: 0;
-        border-radius: 3px;
+        border-top-left-radius: $range-progress-border-radius;
+        border-bottom-left-radius: $range-progress-border-radius;
       }
 
     }

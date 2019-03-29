@@ -51,8 +51,9 @@ $checklist-title-color: $color-text-lighter;
 $radio-title-color: $color-text-lighter;
 
 /* Range Component */
+$range-progress-border-radius: 3px;
 $range-background-primary-color: $color-primary;
-$range-background-color: #ececec;
+$range-background-color: transparent;
 $range-thumb-size: 30px;
 
 /* z-index */
