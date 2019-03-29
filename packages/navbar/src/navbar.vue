@@ -42,6 +42,7 @@ export default {
 
   @component-namespace mint {
     @component navbar {
+      color: $color-text-light;
       background-color: $color-white;
       display: flex;
       text-align: center;
@@ -52,7 +53,6 @@ export default {
       }
 
       .mint-tab-item {
-        color: color-text-light;
         padding: 30px 0;
         font-size: 32px;
         position: relative;

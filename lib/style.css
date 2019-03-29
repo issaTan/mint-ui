@@ -933,6 +933,7 @@ display: inline-block;
 /* Range Component */
 /* z-index */
 .mint-navbar {
+    color: #666;
     background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -940,7 +941,6 @@ display: inline-block;
     text-align: center;
 }
 .mint-navbar .mint-tab-item {
-    color: color-text-light;
     padding: 30px 0;
     font-size: 32px;
     position: relative;
