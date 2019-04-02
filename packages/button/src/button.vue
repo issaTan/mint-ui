@@ -90,7 +90,7 @@ export default {
   @component-namespace mint {
     @component button {
       appearance: none;
-      border-radius: 4px;
+      border-radius: 2px;
       border: 0;
       box-sizing: border-box;
       color: inherit;
