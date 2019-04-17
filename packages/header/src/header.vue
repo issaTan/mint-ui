@@ -52,7 +52,6 @@ export default {
       font-size: 36px;
       height: $header-height;
       line-height: 1;
-      padding: 0 20px;
       position: relative;
       text-align: center;
       white-space: nowrap;
