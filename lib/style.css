@@ -133,7 +133,7 @@
 }
 .mint-button--default {
     color: #666;
-    background-color: #ccc;
+    background-color: #f7f7f7;
     box-shadow: 0 0 1px #eee
 }
 .mint-button--default.is-plain {
